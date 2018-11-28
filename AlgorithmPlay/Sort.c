@@ -9,6 +9,9 @@
 #include "Sort.h"
 #include "Helper.h"
 
+int Partition(int *a, int low, int high);
+int Partition_1(int *a, int low, int high);
+
 #pragma mark - 冒泡排序
 
 void bubbleSort(int *a, int len) {
@@ -37,6 +40,15 @@ void bubbleSort_1(int *a, int len) {
 }
 
 #pragma mark - 快速排序
+
+void quickSort(int *a, int low, int high) {
+    
+    if (low < high) {
+        int pivotLoc = Partition(a, low, high);
+        quickSort(a, low, pivotLoc - 1);
+        quickSort(a, pivotLoc + 1, high);
+    }
+}
 
 int Partition(int *a, int low, int high) {
     
@@ -71,12 +83,5 @@ int Partition_1(int *a, int low, int high) {
     return low;
 }
 
-void quickSort(int *a, int low, int high) {
-    
-    if (low < high) {
-        int pivotLoc = Partition(a, low, high);
-        quickSort(a, low, high - 1);
-        quickSort(a, pivotLoc + 1, high);
-    }
-}
+
 
