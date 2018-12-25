@@ -25,6 +25,379 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5D7967E621D1C6E500A4BF5E /* CodingGuidelines.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CodingGuidelines.md; sourceTree = "<group>"; };
+		5D7967E821D1C6E500A4BF5E /* Gauss_Elimination.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Gauss_Elimination.c; sourceTree = "<group>"; };
+		5D7967E921D1C6E500A4BF5E /* lagrange_theorem.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lagrange_theorem.C; sourceTree = "<group>"; };
+		5D7967EA21D1C6E500A4BF5E /* MEAN.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MEAN.C; sourceTree = "<group>"; };
+		5D7967EB21D1C6E500A4BF5E /* MEDIAN.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MEDIAN.C; sourceTree = "<group>"; };
+		5D7967EC21D1C6E500A4BF5E /* Seidal.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Seidal.C; sourceTree = "<group>"; };
+		5D7967ED21D1C6E500A4BF5E /* simpson's 1-3rd rule.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "simpson's 1-3rd rule.c"; sourceTree = "<group>"; };
+		5D7967EE21D1C6E500A4BF5E /* variance.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = variance.c; sourceTree = "<group>"; };
+		5D7967F021D1C6E500A4BF5E /* binary2octal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binary2octal.c; sourceTree = "<group>"; };
+		5D7967F121D1C6E500A4BF5E /* binary_to_decimal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binary_to_decimal.c; sourceTree = "<group>"; };
+		5D7967F221D1C6E500A4BF5E /* binary_to_hexa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binary_to_hexa.c; sourceTree = "<group>"; };
+		5D7967F321D1C6E500A4BF5E /* decimal _to_binary.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "decimal _to_binary.c"; sourceTree = "<group>"; };
+		5D7967F421D1C6E500A4BF5E /* decimal_to_hexa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = decimal_to_hexa.c; sourceTree = "<group>"; };
+		5D7967F521D1C6E500A4BF5E /* decimal_to_octal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = decimal_to_octal.c; sourceTree = "<group>"; };
+		5D7967F621D1C6E500A4BF5E /* toDecimal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = toDecimal.c; sourceTree = "<group>"; };
+		5D7967F921D1C6E500A4BF5E /* CArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CArray.c; sourceTree = "<group>"; };
+		5D7967FA21D1C6E500A4BF5E /* CArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CArray.h; sourceTree = "<group>"; };
+		5D7967FB21D1C6E500A4BF5E /* CArrayTests.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CArrayTests.c; sourceTree = "<group>"; };
+		5D7967FC21D1C6E500A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D7967FE21D1C6E500A4BF5E /* binary_search_tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binary_search_tree.c; sourceTree = "<group>"; };
+		5D7967FF21D1C6E500A4BF5E /* create_node.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = create_node.c; sourceTree = "<group>"; };
+		5D79680021D1C6E500A4BF5E /* recursive_traversals.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = recursive_traversals.c; sourceTree = "<group>"; };
+		5D79680221D1C6E500A4BF5E /* dict.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dict.c; sourceTree = "<group>"; };
+		5D79680321D1C6E500A4BF5E /* dict.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dict.h; sourceTree = "<group>"; };
+		5D79680421D1C6E500A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79680521D1C6E500A4BF5E /* test_program.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test_program.c; sourceTree = "<group>"; };
+		5D79680721D1C6E500A4BF5E /* Bellman-Ford.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Bellman-Ford.c"; sourceTree = "<group>"; };
+		5D79680821D1C6E500A4BF5E /* Dijkstra.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Dijkstra.c; sourceTree = "<group>"; };
+		5D79680921D1C6E600A4BF5E /* Floyd-Warshall.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Floyd-Warshall.c"; sourceTree = "<group>"; };
+		5D79680B21D1C6E600A4BF5E /* mergeLinkedLists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mergeLinkedLists.c; sourceTree = "<group>"; };
+		5D79680C21D1C6E600A4BF5E /* singly_link_list_deletion.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = singly_link_list_deletion.c; sourceTree = "<group>"; };
+		5D79680D21D1C6E600A4BF5E /* stack_using_linkedlists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack_using_linkedlists.c; sourceTree = "<group>"; };
+		5D79680E21D1C6E600A4BF5E /* queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
+		5D79681021D1C6E600A4BF5E /* balanced parenthesis using stack in C */ = {isa = PBXFileReference; lastKnownFileType = text; path = "balanced parenthesis using stack in C"; sourceTree = "<group>"; };
+		5D79681121D1C6E600A4BF5E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5D79681221D1C6E600A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79681321D1C6E600A4BF5E /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		5D79681421D1C6E600A4BF5E /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		5D79681521D1C6E600A4BF5E /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		5D79681721D1C6E600A4BF5E /* dictionary.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dictionary.txt; sourceTree = "<group>"; };
+		5D79681821D1C6E600A4BF5E /* trie.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trie.c; sourceTree = "<group>"; };
+		5D79681B21D1C6E600A4BF5E /* acronym.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = acronym.c; sourceTree = "<group>"; };
+		5D79681C21D1C6E600A4BF5E /* acronym.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = acronym.h; sourceTree = "<group>"; };
+		5D79681E21D1C6E600A4BF5E /* hello_world.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hello_world.c; sourceTree = "<group>"; };
+		5D79681F21D1C6E600A4BF5E /* hello_world.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hello_world.h; sourceTree = "<group>"; };
+		5D79682121D1C6E600A4BF5E /* isogram.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = isogram.c; sourceTree = "<group>"; };
+		5D79682221D1C6E600A4BF5E /* isogram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = isogram.h; sourceTree = "<group>"; };
+		5D79682321D1C6E600A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79682521D1C6E600A4BF5E /* rna_transcription.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rna_transcription.c; sourceTree = "<group>"; };
+		5D79682621D1C6E600A4BF5E /* rna_transcription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rna_transcription.h; sourceTree = "<group>"; };
+		5D79682821D1C6E600A4BF5E /* word_count.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = word_count.c; sourceTree = "<group>"; };
+		5D79682921D1C6E600A4BF5E /* word_count.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = word_count.h; sourceTree = "<group>"; };
+		5D79682B21D1C6E600A4BF5E /* hash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hash.c; sourceTree = "<group>"; };
+		5D79682C21D1C6E600A4BF5E /* hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		5D79682D21D1C6E600A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79682E21D1C6E600A4BF5E /* test_program.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test_program.c; sourceTree = "<group>"; };
+		5D79683021D1C6E600A4BF5E /* catalan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = catalan.c; sourceTree = "<group>"; };
+		5D79683121D1C6E600A4BF5E /* Collatz.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Collatz.c; sourceTree = "<group>"; };
+		5D79683221D1C6E600A4BF5E /* demonetization.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = demonetization.c; sourceTree = "<group>"; };
+		5D79683321D1C6E600A4BF5E /* Factorial.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Factorial.c; sourceTree = "<group>"; };
+		5D79683421D1C6E600A4BF5E /* factorial_trailing_zeroes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = factorial_trailing_zeroes.c; sourceTree = "<group>"; };
+		5D79683521D1C6E600A4BF5E /* Fibonacci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Fibonacci.c; sourceTree = "<group>"; };
+		5D79683621D1C6E600A4BF5E /* GCD.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GCD.c; sourceTree = "<group>"; };
+		5D79683721D1C6E600A4BF5E /* isArmstrong.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = isArmstrong.c; sourceTree = "<group>"; };
+		5D79683821D1C6E600A4BF5E /* lexicographicPermutations.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lexicographicPermutations.c; sourceTree = "<group>"; };
+		5D79683921D1C6E600A4BF5E /* LongestSubSequence.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LongestSubSequence.c; sourceTree = "<group>"; };
+		5D79683A21D1C6E600A4BF5E /* mirror */ = {isa = PBXFileReference; lastKnownFileType = text; path = mirror; sourceTree = "<group>"; };
+		5D79683B21D1C6E600A4BF5E /* palindrome.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = palindrome.c; sourceTree = "<group>"; };
+		5D79683C21D1C6E600A4BF5E /* Prime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Prime.c; sourceTree = "<group>"; };
+		5D79683D21D1C6E600A4BF5E /* QUARTILE.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QUARTILE.c; sourceTree = "<group>"; };
+		5D79683E21D1C6E600A4BF5E /* rselect.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rselect.c; sourceTree = "<group>"; };
+		5D79683F21D1C6E600A4BF5E /* strongNumber.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = strongNumber.c; sourceTree = "<group>"; };
+		5D79684021D1C6E600A4BF5E /* sudokusolver.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sudokusolver.c; sourceTree = "<group>"; };
+		5D79684121D1C6E600A4BF5E /* TowerOfHanoi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TowerOfHanoi.c; sourceTree = "<group>"; };
+		5D79684421D1C6E600A4BF5E /* sol1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sol1.c; sourceTree = "<group>"; };
+		5D79684521D1C6E600A4BF5E /* sol2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sol2.c; sourceTree = "<group>"; };
+		5D79684621D1C6E600A4BF5E /* sol3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sol3.c; sourceTree = "<group>"; };
+		5D79684821D1C6E600A4BF5E /* so1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = so1.c; sourceTree = "<group>"; };
+		5D79684A21D1C6E600A4BF5E /* sol1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sol1.c; sourceTree = "<group>"; };
+		5D79684B21D1C6E600A4BF5E /* sol2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sol2.c; sourceTree = "<group>"; };
+		5D79684C21D1C6E600A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79684D21D1C6E600A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79684F21D1C6E600A4BF5E /* Binary_Search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Binary_Search.c; sourceTree = "<group>"; };
+		5D79685021D1C6E600A4BF5E /* fibonacciSearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fibonacciSearch.c; sourceTree = "<group>"; };
+		5D79685121D1C6E600A4BF5E /* interpolation_search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = interpolation_search.c; sourceTree = "<group>"; };
+		5D79685221D1C6E600A4BF5E /* Jump_Search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Jump_Search.c; sourceTree = "<group>"; };
+		5D79685321D1C6E600A4BF5E /* LinearSearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinearSearch.c; sourceTree = "<group>"; };
+		5D79685421D1C6E600A4BF5E /* modifiedBinarySearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = modifiedBinarySearch.c; sourceTree = "<group>"; };
+		5D79685521D1C6E600A4BF5E /* Other_Binary_Search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Other_Binary_Search.c; sourceTree = "<group>"; };
+		5D79685721D1C6E600A4BF5E /* binary_insertion_sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binary_insertion_sort.c; sourceTree = "<group>"; };
+		5D79685821D1C6E600A4BF5E /* BogoSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BogoSort.c; sourceTree = "<group>"; };
+		5D79685921D1C6E600A4BF5E /* BubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BubbleSort.c; sourceTree = "<group>"; };
+		5D79685A21D1C6E600A4BF5E /* BucketSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BucketSort.c; sourceTree = "<group>"; };
+		5D79685B21D1C6E600A4BF5E /* countingSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = countingSort.c; sourceTree = "<group>"; };
+		5D79685C21D1C6E600A4BF5E /* HeapSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HeapSort.c; sourceTree = "<group>"; };
+		5D79685D21D1C6E600A4BF5E /* InsertionSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InsertionSort.c; sourceTree = "<group>"; };
+		5D79685E21D1C6E600A4BF5E /* mergesort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mergesort.c; sourceTree = "<group>"; };
+		5D79685F21D1C6E600A4BF5E /* OtherBubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OtherBubbleSort.c; sourceTree = "<group>"; };
+		5D79686021D1C6E600A4BF5E /* QuickSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
+		5D79686121D1C6E600A4BF5E /* SelectionSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SelectionSort.c; sourceTree = "<group>"; };
+		5D79686221D1C6E600A4BF5E /* shaker_sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = shaker_sort.c; sourceTree = "<group>"; };
+		5D79686321D1C6E600A4BF5E /* shellSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = shellSort.c; sourceTree = "<group>"; };
+		5D79686521D1C7E200A4BF5E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5D79686721D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79686921D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79686A21D1C7E200A4BF5E /* 分治算法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "分治算法.md"; sourceTree = "<group>"; };
+		5D79686B21D1C7E200A4BF5E /* 动态规划.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "动态规划.md"; sourceTree = "<group>"; };
+		5D79686C21D1C7E200A4BF5E /* 回溯法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "回溯法.md"; sourceTree = "<group>"; };
+		5D79686D21D1C7E200A4BF5E /* 穷举搜索法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "穷举搜索法.md"; sourceTree = "<group>"; };
+		5D79686E21D1C7E200A4BF5E /* 贪心算法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "贪心算法.md"; sourceTree = "<group>"; };
+		5D79686F21D1C7E200A4BF5E /* 迭代法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "迭代法.md"; sourceTree = "<group>"; };
+		5D79687021D1C7E200A4BF5E /* 递归.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "递归.md"; sourceTree = "<group>"; };
+		5D79687221D1C7E200A4BF5E /* Bitmap.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Bitmap.md; sourceTree = "<group>"; };
+		5D79687321D1C7E200A4BF5E /* Bloom filter(布隆过滤器).md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Bloom filter(布隆过滤器).md"; sourceTree = "<group>"; };
+		5D79687421D1C7E200A4BF5E /* btree_insert.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btree_insert.gif; sourceTree = "<group>"; };
+		5D79687521D1C7E200A4BF5E /* disk_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disk_search.png; sourceTree = "<group>"; };
+		5D79687621D1C7E200A4BF5E /* Hash映射,分而治之.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Hash映射,分而治之.md"; sourceTree = "<group>"; };
+		5D79687721D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79687821D1C7E200A4BF5E /* simhash算法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "simhash算法.md"; sourceTree = "<group>"; };
+		5D79687921D1C7E200A4BF5E /* 倒排索引(Inverted Index).md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "倒排索引(Inverted Index).md"; sourceTree = "<group>"; };
+		5D79687A21D1C7E200A4BF5E /* 分布处理之Mapreduce.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "分布处理之Mapreduce.md"; sourceTree = "<group>"; };
+		5D79687B21D1C7E200A4BF5E /* 双层桶划分.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "双层桶划分.md"; sourceTree = "<group>"; };
+		5D79687C21D1C7E200A4BF5E /* 外排序.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "外排序.md"; sourceTree = "<group>"; };
+		5D79687D21D1C7E200A4BF5E /* 数据库索引.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "数据库索引.md"; sourceTree = "<group>"; };
+		5D79687F21D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79688121D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79688221D1C7E200A4BF5E /* YYCache.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = YYCache.md; sourceTree = "<group>"; };
+		5D79688421D1C7E200A4BF5E /* leetcode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = leetcode.md; sourceTree = "<group>"; };
+		5D79688521D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79688621D1C7E200A4BF5E /* 九度OJ.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "九度OJ.md"; sourceTree = "<group>"; };
+		5D79688721D1C7E200A4BF5E /* 二叉树.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "二叉树.md"; sourceTree = "<group>"; };
+		5D79688921D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79688A21D1C7E200A4BF5E /* 图.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "图.md"; sourceTree = "<group>"; };
+		5D79688B21D1C7E200A4BF5E /* 堆和栈.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "堆和栈.md"; sourceTree = "<group>"; };
+		5D79688C21D1C7E200A4BF5E /* 字符串.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "字符串.md"; sourceTree = "<group>"; };
+		5D79688D21D1C7E200A4BF5E /* 数值问题.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "数值问题.md"; sourceTree = "<group>"; };
+		5D79688E21D1C7E200A4BF5E /* 数组数列问题.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "数组数列问题.md"; sourceTree = "<group>"; };
+		5D79688F21D1C7E200A4BF5E /* 智力思维训练.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "智力思维训练.md"; sourceTree = "<group>"; };
+		5D79689121D1C7E200A4BF5E /* 1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1.c; sourceTree = "<group>"; };
+		5D79689221D1C7E200A4BF5E /* 10.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 10.c; sourceTree = "<group>"; };
+		5D79689321D1C7E200A4BF5E /* 11.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 11.c; sourceTree = "<group>"; };
+		5D79689421D1C7E200A4BF5E /* 12.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 12.c; sourceTree = "<group>"; };
+		5D79689521D1C7E200A4BF5E /* 2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2.c; sourceTree = "<group>"; };
+		5D79689621D1C7E200A4BF5E /* 20.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 20.c; sourceTree = "<group>"; };
+		5D79689721D1C7E200A4BF5E /* 21.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 21.c; sourceTree = "<group>"; };
+		5D79689821D1C7E200A4BF5E /* 22.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 22.c; sourceTree = "<group>"; };
+		5D79689921D1C7E200A4BF5E /* 23.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 23.c; sourceTree = "<group>"; };
+		5D79689A21D1C7E200A4BF5E /* 24.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 24.c; sourceTree = "<group>"; };
+		5D79689B21D1C7E200A4BF5E /* 25.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 25.c; sourceTree = "<group>"; };
+		5D79689C21D1C7E200A4BF5E /* 26.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 26.c; sourceTree = "<group>"; };
+		5D79689D21D1C7E200A4BF5E /* 27.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 27.c; sourceTree = "<group>"; };
+		5D79689E21D1C7E200A4BF5E /* 28.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 28.c; sourceTree = "<group>"; };
+		5D79689F21D1C7E200A4BF5E /* 3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3.c; sourceTree = "<group>"; };
+		5D7968A021D1C7E200A4BF5E /* 4-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4-1.c"; sourceTree = "<group>"; };
+		5D7968A121D1C7E200A4BF5E /* 5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5.c; sourceTree = "<group>"; };
+		5D7968A221D1C7E200A4BF5E /* 6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 6.c; sourceTree = "<group>"; };
+		5D7968A321D1C7E200A4BF5E /* 7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 7.c; sourceTree = "<group>"; };
+		5D7968A421D1C7E200A4BF5E /* 8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 8.c; sourceTree = "<group>"; };
+		5D7968A521D1C7E200A4BF5E /* 9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 9.c; sourceTree = "<group>"; };
+		5D7968A621D1C7E200A4BF5E /* bt1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bt1.c; sourceTree = "<group>"; };
+		5D7968A721D1C7E200A4BF5E /* c1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c1.c; sourceTree = "<group>"; };
+		5D7968A821D1C7E200A4BF5E /* c10.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c10.c; sourceTree = "<group>"; };
+		5D7968A921D1C7E200A4BF5E /* c11-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c11-2.c"; sourceTree = "<group>"; };
+		5D7968AA21D1C7E200A4BF5E /* c11.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c11.c; sourceTree = "<group>"; };
+		5D7968AB21D1C7E200A4BF5E /* c12.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c12.c; sourceTree = "<group>"; };
+		5D7968AC21D1C7E200A4BF5E /* c13-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c13-1.c"; sourceTree = "<group>"; };
+		5D7968AD21D1C7E200A4BF5E /* c13-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c13-2.c"; sourceTree = "<group>"; };
+		5D7968AE21D1C7E200A4BF5E /* c14.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c14.c; sourceTree = "<group>"; };
+		5D7968AF21D1C7E200A4BF5E /* c15.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c15.c; sourceTree = "<group>"; };
+		5D7968B021D1C7E200A4BF5E /* c16.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c16.c; sourceTree = "<group>"; };
+		5D7968B121D1C7E200A4BF5E /* c17.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c17.c; sourceTree = "<group>"; };
+		5D7968B221D1C7E200A4BF5E /* c18.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c18.c; sourceTree = "<group>"; };
+		5D7968B321D1C7E200A4BF5E /* c19.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c19.c; sourceTree = "<group>"; };
+		5D7968B421D1C7E200A4BF5E /* c2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c2.c; sourceTree = "<group>"; };
+		5D7968B521D1C7E200A4BF5E /* c20.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c20.c; sourceTree = "<group>"; };
+		5D7968B621D1C7E200A4BF5E /* c3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c3.c; sourceTree = "<group>"; };
+		5D7968B721D1C7E200A4BF5E /* c4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c4.c; sourceTree = "<group>"; };
+		5D7968B821D1C7E200A4BF5E /* c5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c5.c; sourceTree = "<group>"; };
+		5D7968B921D1C7E200A4BF5E /* c6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c6.c; sourceTree = "<group>"; };
+		5D7968BA21D1C7E200A4BF5E /* c7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c7.c; sourceTree = "<group>"; };
+		5D7968BB21D1C7E200A4BF5E /* c8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c8.c; sourceTree = "<group>"; };
+		5D7968BC21D1C7E200A4BF5E /* c9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c9.c; sourceTree = "<group>"; };
+		5D7968BD21D1C7E200A4BF5E /* char_first_appear_once.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = char_first_appear_once.c; sourceTree = "<group>"; };
+		5D7968BE21D1C7E200A4BF5E /* delete_occurence_character.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = delete_occurence_character.c; sourceTree = "<group>"; };
+		5D7968BF21D1C7E200A4BF5E /* fibonacci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fibonacci.c; sourceTree = "<group>"; };
+		5D7968C021D1C7E200A4BF5E /* longest_continuious_number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = longest_continuious_number.c; sourceTree = "<group>"; };
+		5D7968C121D1C7E200A4BF5E /* most_visit_ip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = most_visit_ip.c; sourceTree = "<group>"; };
+		5D7968C221D1C7E200A4BF5E /* one_appear_count_by_binary.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = one_appear_count_by_binary.c; sourceTree = "<group>"; };
+		5D7968C321D1C7E200A4BF5E /* Power.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Power.c; sourceTree = "<group>"; };
+		5D7968C421D1C7E200A4BF5E /* print_matrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = print_matrix.c; sourceTree = "<group>"; };
+		5D7968C521D1C7E200A4BF5E /* proc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = proc.c; sourceTree = "<group>"; };
+		5D7968C621D1C7E200A4BF5E /* replce_blank.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = replce_blank.c; sourceTree = "<group>"; };
+		5D7968C721D1C7E200A4BF5E /* revert_by_word.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = revert_by_word.c; sourceTree = "<group>"; };
+		5D7968C821D1C7E200A4BF5E /* string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = string.c; sourceTree = "<group>"; };
+		5D7968C921D1C7E200A4BF5E /* 海量数据处理.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "海量数据处理.md"; sourceTree = "<group>"; };
+		5D7968CA21D1C7E200A4BF5E /* 矩阵.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "矩阵.md"; sourceTree = "<group>"; };
+		5D7968CB21D1C7E200A4BF5E /* 系统设计.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "系统设计.md"; sourceTree = "<group>"; };
+		5D7968CD21D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D7968CE21D1C7E200A4BF5E /* 链表.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "链表.md"; sourceTree = "<group>"; };
+		5D7968D221D1C7E200A4BF5E /* bintree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bintree.c; sourceTree = "<group>"; };
+		5D7968D321D1C7E200A4BF5E /* btree */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = btree; sourceTree = "<group>"; };
+		5D7968D421D1C7E200A4BF5E /* public.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = public.h; sourceTree = "<group>"; };
+		5D7968D521D1C7E200A4BF5E /* 队列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "队列.h"; sourceTree = "<group>"; };
+		5D7968D621D1C7E200A4BF5E /* btree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = btree.c; sourceTree = "<group>"; };
+		5D7968D721D1C7E200A4BF5E /* rbtree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rbtree.c; sourceTree = "<group>"; };
+		5D7968D821D1C7E200A4BF5E /* suffix_tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = suffix_tree.c; sourceTree = "<group>"; };
+		5D7968DB21D1C7E200A4BF5E /* bisearch */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = bisearch; sourceTree = "<group>"; };
+		5D7968DC21D1C7E200A4BF5E /* bisearchtree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bisearchtree.c; sourceTree = "<group>"; };
+		5D7968DD21D1C7E200A4BF5E /* bisearchtree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bisearchtree.h; sourceTree = "<group>"; };
+		5D7968DE21D1C7E200A4BF5E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5D7968DF21D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D7968E121D1C7E200A4BF5E /* AVLTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = AVLTree.c; sourceTree = "<group>"; };
+		5D7968E221D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D7968E421D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D7968E521D1C7E200A4BF5E /* trie.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trie.c; sourceTree = "<group>"; };
+		5D7968E721D1C7E200A4BF5E /* heap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = heap.c; sourceTree = "<group>"; };
+		5D7968E821D1C7E200A4BF5E /* B树.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "B树.md"; sourceTree = "<group>"; };
+		5D7968E921D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D7968EA21D1C7E200A4BF5E /* 二叉查找树.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "二叉查找树.md"; sourceTree = "<group>"; };
+		5D7968EB21D1C7E200A4BF5E /* 伸展树.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "伸展树.md"; sourceTree = "<group>"; };
+		5D7968EC21D1C7E200A4BF5E /* 后缀树.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "后缀树.md"; sourceTree = "<group>"; };
+		5D7968ED21D1C7E200A4BF5E /* 字典树.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "字典树.md"; sourceTree = "<group>"; };
+		5D7968EE21D1C7E200A4BF5E /* 赫夫曼编码.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "赫夫曼编码.md"; sourceTree = "<group>"; };
+		5D7968EF21D1C7E200A4BF5E /* C Language Code Specification.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "C Language Code Specification.md"; sourceTree = "<group>"; };
+		5D7968F121D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D7968F321D1C7E200A4BF5E /* hash_ref.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hash_ref.c; sourceTree = "<group>"; };
+		5D7968F421D1C7E200A4BF5E /* hashmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hashmap.png; sourceTree = "<group>"; };
+		5D7968F521D1C7E200A4BF5E /* HashTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HashTable.c; sourceTree = "<group>"; };
+		5D7968F621D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D7968F821D1C7E200A4BF5E /* bubble-sort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "bubble-sort.gif"; sourceTree = "<group>"; };
+		5D7968F921D1C7E200A4BF5E /* fast-sort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "fast-sort.gif"; sourceTree = "<group>"; };
+		5D7968FA21D1C7E200A4BF5E /* heap-sort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "heap-sort.gif"; sourceTree = "<group>"; };
+		5D7968FB21D1C7E200A4BF5E /* merge-sort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "merge-sort.gif"; sourceTree = "<group>"; };
+		5D7968FC21D1C7E200A4BF5E /* select-sort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "select-sort.gif"; sourceTree = "<group>"; };
+		5D7968FD21D1C7E200A4BF5E /* shell-sort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "shell-sort.gif"; sourceTree = "<group>"; };
+		5D7968FF21D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79690021D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79690221D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79690421D1C7E200A4BF5E /* 8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 8.c; sourceTree = "<group>"; };
+		5D79690521D1C7E200A4BF5E /* bubblesort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bubblesort.gif; sourceTree = "<group>"; };
+		5D79690621D1C7E200A4BF5E /* heapsort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = heapsort.gif; sourceTree = "<group>"; };
+		5D79690721D1C7E200A4BF5E /* insert_srot.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = insert_srot.c; sourceTree = "<group>"; };
+		5D79690821D1C7E200A4BF5E /* mergesort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mergesort.gif; sourceTree = "<group>"; };
+		5D79690921D1C7E200A4BF5E /* qsort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = qsort.gif; sourceTree = "<group>"; };
+		5D79690A21D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79690B21D1C7E200A4BF5E /* selectsort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = selectsort.gif; sourceTree = "<group>"; };
+		5D79690C21D1C7E200A4BF5E /* shellsort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shellsort.gif; sourceTree = "<group>"; };
+		5D79690E21D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D79691121D1CABB00A4BF5E /* 1.1：左旋转字符串.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "1.1：左旋转字符串.c"; sourceTree = "<group>"; };
+		5D79691221D1CABB00A4BF5E /* 1.2：字符串是否包含问题.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "1.2：字符串是否包含问题.c"; sourceTree = "<group>"; };
+		5D79691321D1CABB00A4BF5E /* 1.3：带通配符的字符串匹配问题.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "1.3：带通配符的字符串匹配问题.c"; sourceTree = "<group>"; };
+		5D79691421D1CABB00A4BF5E /* 1.4：字符串转换成整数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "1.4：字符串转换成整数.c"; sourceTree = "<group>"; };
+		5D79691521D1CABB00A4BF5E /* 1.7：字符串的全排列.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "1.7：字符串的全排列.c"; sourceTree = "<group>"; };
+		5D79691621D1CABB00A4BF5E /* 10.1.3：教你一步一步用c语言实现sift算法、下.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10.1.3：教你一步一步用c语言实现sift算法、下.c"; sourceTree = "<group>"; };
+		5D79691721D1CABB00A4BF5E /* 2.1：寻找最小的 k 个数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "2.1：寻找最小的 k 个数.c"; sourceTree = "<group>"; };
+		5D79691821D1CABB00A4BF5E /* 2.2：求给定区间的第K小元素.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "2.2：求给定区间的第K小元素.c"; sourceTree = "<group>"; };
+		5D79691921D1CABB00A4BF5E /* 2.3：求解500万以内的亲和数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "2.3：求解500万以内的亲和数.c"; sourceTree = "<group>"; };
+		5D79691A21D1CABB00A4BF5E /* 2.4：寻找和为定值的两个数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "2.4：寻找和为定值的两个数.c"; sourceTree = "<group>"; };
+		5D79691B21D1CABB00A4BF5E /* 2.5：寻找和为定值的多个数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "2.5：寻找和为定值的多个数.c"; sourceTree = "<group>"; };
+		5D79691C21D1CABB00A4BF5E /* 2.6：求连续子数组的最大和.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "2.6：求连续子数组的最大和.c"; sourceTree = "<group>"; };
+		5D79691D21D1CABB00A4BF5E /* 2.7：奇偶排序.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "2.7：奇偶排序.c"; sourceTree = "<group>"; };
+		5D79691E21D1CABB00A4BF5E /* 2.7：荷兰国旗问题.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "2.7：荷兰国旗问题.c"; sourceTree = "<group>"; };
+		5D79691F21D1CABB00A4BF5E /* 2.8：矩阵相乘之Strassen算法.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "2.8：矩阵相乘之Strassen算法.c"; sourceTree = "<group>"; };
+		5D79692021D1CABB00A4BF5E /* 3.1：二分查找实现.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3.1：二分查找实现.c"; sourceTree = "<group>"; };
+		5D79692121D1CABB00A4BF5E /* 3.2：杨氏矩阵查找.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3.2：杨氏矩阵查找.c"; sourceTree = "<group>"; };
+		5D79692221D1CABB00A4BF5E /* 4.1：木块砌墙.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4.1：木块砌墙.c"; sourceTree = "<group>"; };
+		5D79692321D1CABB00A4BF5E /* 4.2：格子取数问题.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4.2：格子取数问题.c"; sourceTree = "<group>"; };
+		5D79692421D1CABB00A4BF5E /* 4.3：出现次数超过一半的数字.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4.3：出现次数超过一半的数字.c"; sourceTree = "<group>"; };
+		5D79692521D1CABB00A4BF5E /* 4.3：完美洗牌算法.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4.3：完美洗牌算法.c"; sourceTree = "<group>"; };
+		5D79692621D1CABB00A4BF5E /* 4.4：最近公共祖先LCA问题.LCAProblem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4.4：最近公共祖先LCA问题.LCAProblem.c"; sourceTree = "<group>"; };
+		5D79692721D1CABB00A4BF5E /* 4.5：打印螺旋矩阵.SpiralMatrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4.5：打印螺旋矩阵.SpiralMatrix.c"; sourceTree = "<group>"; };
+		5D79692821D1CABB00A4BF5E /* 5.1：最长公共子序列（LCS）问题.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "5.1：最长公共子序列（LCS）问题.c"; sourceTree = "<group>"; };
+		5D79692921D1CABB00A4BF5E /* 5.2：最大连续乘积子串.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "5.2：最大连续乘积子串.c"; sourceTree = "<group>"; };
+		5D79692A21D1CABB00A4BF5E /* 5.3：字符串编辑距离.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "5.3：字符串编辑距离.c"; sourceTree = "<group>"; };
+		5D79692B21D1CABB00A4BF5E /* 5.4：交替字符串.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "5.4：交替字符串.c"; sourceTree = "<group>"; };
+		5D79692C21D1CABB00A4BF5E /* 6.11：最小操作数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6.11：最小操作数.c"; sourceTree = "<group>"; };
+		5D79692D21D1CABB00A4BF5E /* 6.4：回文判断.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6.4：回文判断.c"; sourceTree = "<group>"; };
+		5D79692E21D1CABB00A4BF5E /* 6.6：跳台阶问题.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6.6：跳台阶问题.c"; sourceTree = "<group>"; };
+		5D79692F21D1CABB00A4BF5E /* 6.8：第一个只出现一次的字符.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6.8：第一个只出现一次的字符.c"; sourceTree = "<group>"; };
+		5D79693021D1CABB00A4BF5E /* 6.9：Trie树.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6.9：Trie树.c"; sourceTree = "<group>"; };
+		5D79693121D1CABB00A4BF5E /* 7.1：搜索引擎热门查询统计.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7.1：搜索引擎热门查询统计.c"; sourceTree = "<group>"; };
+		5D79693221D1CABB00A4BF5E /* 7.2：最短摘要的生成.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7.2：最短摘要的生成.c"; sourceTree = "<group>"; };
+		5D79693321D1CABB00A4BF5E /* 7.3：倒排索引关键词不重复Hash编码.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7.3：倒排索引关键词不重复Hash编码.c"; sourceTree = "<group>"; };
+		5D79693421D1CABB00A4BF5E /* 7.4：倒排索引关键词 Hash 不重复编码实践.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7.4：倒排索引关键词 Hash 不重复编码实践.c"; sourceTree = "<group>"; };
+		5D79693521D1CABB00A4BF5E /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		5D79693721D1CABB00A4BF5E /* 1.1：左旋转字符串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1.1：左旋转字符串.cpp"; sourceTree = "<group>"; };
+		5D79693821D1CABB00A4BF5E /* 2.1：寻找最小的 k 个数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2.1：寻找最小的 k 个数.cpp"; sourceTree = "<group>"; };
+		5D79693921D1CABB00A4BF5E /* 3.1：二分查找实现(Jon Bentley */ = {isa = PBXFileReference; lastKnownFileType = text; path = "3.1：二分查找实现(Jon Bentley"; sourceTree = "<group>"; };
+		5D79693A21D1CABB00A4BF5E /* 4.2：完美洗牌算法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "4.2：完美洗牌算法.cpp"; sourceTree = "<group>"; };
+		5D79693B21D1CABB00A4BF5E /* 7.4：倒排索引关键词 Hash 不重复编码实践.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "7.4：倒排索引关键词 Hash 不重复编码实践.cpp"; sourceTree = "<group>"; };
+		5D79693C21D1CABB00A4BF5E /* 9.2：海量数据处理之Bit-map详解.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "9.2：海量数据处理之Bit-map详解.cpp"; sourceTree = "<group>"; };
+		5D79693D21D1CABB00A4BF5E /* chapter04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter04.cpp; sourceTree = "<group>"; };
+		5D79693E21D1CABB00A4BF5E /* chapter06.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter06.cpp; sourceTree = "<group>"; };
+		5D79693F21D1CABB00A4BF5E /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		5D79694121D1CABB00A4BF5E /* 1.1：左旋转字符串.erl */ = {isa = PBXFileReference; lastKnownFileType = text; path = "1.1：左旋转字符串.erl"; sourceTree = "<group>"; };
+		5D79694221D1CABB00A4BF5E /* 3.1：二分查找实现.erl */ = {isa = PBXFileReference; lastKnownFileType = text; path = "3.1：二分查找实现.erl"; sourceTree = "<group>"; };
+		5D79694321D1CABB00A4BF5E /* 6.4：回文判断.erl */ = {isa = PBXFileReference; lastKnownFileType = text; path = "6.4：回文判断.erl"; sourceTree = "<group>"; };
+		5D79694521D1CABB00A4BF5E /* 1.1-左旋转字符串.go */ = {isa = PBXFileReference; lastKnownFileType = text; path = "1.1-左旋转字符串.go"; sourceTree = "<group>"; };
+		5D79694621D1CABB00A4BF5E /* 1.2-字符串是否包含问题.go */ = {isa = PBXFileReference; lastKnownFileType = text; path = "1.2-字符串是否包含问题.go"; sourceTree = "<group>"; };
+		5D79694721D1CABB00A4BF5E /* 1.5-回文判断.go */ = {isa = PBXFileReference; lastKnownFileType = text; path = "1.5-回文判断.go"; sourceTree = "<group>"; };
+		5D79694821D1CABB00A4BF5E /* 2.1-寻找最小的k个数.go */ = {isa = PBXFileReference; lastKnownFileType = text; path = "2.1-寻找最小的k个数.go"; sourceTree = "<group>"; };
+		5D79694921D1CABB00A4BF5E /* 2.2-求数组中给定下标区间内的第K小元素.go */ = {isa = PBXFileReference; lastKnownFileType = text; path = "2.2-求数组中给定下标区间内的第K小元素.go"; sourceTree = "<group>"; };
+		5D79694A21D1CABB00A4BF5E /* 3.2-杨氏矩阵查找.go */ = {isa = PBXFileReference; lastKnownFileType = text; path = "3.2-杨氏矩阵查找.go"; sourceTree = "<group>"; };
+		5D79694B21D1CABB00A4BF5E /* 3.3：出现次数超过一半的数字.go */ = {isa = PBXFileReference; lastKnownFileType = text; path = "3.3：出现次数超过一半的数字.go"; sourceTree = "<group>"; };
+		5D79694E21D1CABB00A4BF5E /* 1.1：左旋转字符串.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = "1.1：左旋转字符串.java"; sourceTree = "<group>"; };
+		5D79694F21D1CABB00A4BF5E /* 1.2：字符串包含.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = "1.2：字符串包含.java"; sourceTree = "<group>"; };
+		5D79695021D1CABB00A4BF5E /* Chapter1.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Chapter1.java; sourceTree = "<group>"; };
+		5D79695121D1CABB00A4BF5E /* Palindrome.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Palindrome.java; sourceTree = "<group>"; };
+		5D79695221D1CABB00A4BF5E /* StringToInt */ = {isa = PBXFileReference; lastKnownFileType = text; path = StringToInt; sourceTree = "<group>"; };
+		5D79695421D1CABB00A4BF5E /* Chapter2.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Chapter2.java; sourceTree = "<group>"; };
+		5D79695521D1CABB00A4BF5E /* CountAndCompare.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = CountAndCompare.java; sourceTree = "<group>"; };
+		5D79695621D1CABB00A4BF5E /* HashTableCompare.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = HashTableCompare.java; sourceTree = "<group>"; };
+		5D79695721D1CABB00A4BF5E /* ICompare.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = ICompare.java; sourceTree = "<group>"; };
+		5D79695821D1CABB00A4BF5E /* PrimeCompare.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = PrimeCompare.java; sourceTree = "<group>"; };
+		5D79695921D1CABB00A4BF5E /* SortAndCompare.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = SortAndCompare.java; sourceTree = "<group>"; };
+		5D79695A21D1CABB00A4BF5E /* TopK.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = TopK.java; sourceTree = "<group>"; };
+		5D79695C21D1CABB00A4BF5E /* Chapter3.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Chapter3.java; sourceTree = "<group>"; };
+		5D79695D21D1CABB00A4BF5E /* HeapSolution.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = HeapSolution.java; sourceTree = "<group>"; };
+		5D79695E21D1CABB00A4BF5E /* IFindMinK.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = IFindMinK.java; sourceTree = "<group>"; };
+		5D79695F21D1CABB00A4BF5E /* MaxHeap.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = MaxHeap.java; sourceTree = "<group>"; };
+		5D79696121D1CABB00A4BF5E /* Chapter4.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Chapter4.java; sourceTree = "<group>"; };
+		5D79696321D1CABB00A4BF5E /* Chapter6.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Chapter6.java; sourceTree = "<group>"; };
+		5D79696621D1CABB00A4BF5E /* 1.1：左旋转字符串.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "1.1：左旋转字符串.js"; sourceTree = "<group>"; };
+		5D79696721D1CABB00A4BF5E /* test.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		5D79696821D1CABB00A4BF5E /* tests.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = tests.js; sourceTree = "<group>"; };
+		5D79696A21D1CABB00A4BF5E /* 1.2：字符串是否包含问题.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "1.2：字符串是否包含问题.js"; sourceTree = "<group>"; };
+		5D79696B21D1CABB00A4BF5E /* test.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		5D79696C21D1CABB00A4BF5E /* tests.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = tests.js; sourceTree = "<group>"; };
+		5D79696E21D1CABB00A4BF5E /* 2.4：寻找和为定值的两个数.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "2.4：寻找和为定值的两个数.js"; sourceTree = "<group>"; };
+		5D79696F21D1CABB00A4BF5E /* test.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		5D79697021D1CABB00A4BF5E /* tests.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = tests.js; sourceTree = "<group>"; };
+		5D79697221D1CABB00A4BF5E /* chapter1.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = chapter1.php; sourceTree = "<group>"; };
+		5D79697321D1CABB00A4BF5E /* chapter2.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = chapter2.php; sourceTree = "<group>"; };
+		5D79697421D1CABB00A4BF5E /* chapter3.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = chapter3.php; sourceTree = "<group>"; };
+		5D79697621D1CABB00A4BF5E /* 1.1：字符的移动.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "1.1：字符的移动.py"; sourceTree = "<group>"; };
+		5D79697721D1CABB00A4BF5E /* 1.2：字符串是否包含问题.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "1.2：字符串是否包含问题.py"; sourceTree = "<group>"; };
+		5D79697821D1CABB00A4BF5E /* 1.5：回文判断.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "1.5：回文判断.py"; sourceTree = "<group>"; };
+		5D79697921D1CABB00A4BF5E /* 1.6：最长回文子串.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "1.6：最长回文子串.py"; sourceTree = "<group>"; };
+		5D79697A21D1CABB00A4BF5E /* 2.1：寻找最小的k个数.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "2.1：寻找最小的k个数.py"; sourceTree = "<group>"; };
+		5D79697B21D1CABB00A4BF5E /* 2.1：寻找最小的k个数_2.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "2.1：寻找最小的k个数_2.py"; sourceTree = "<group>"; };
+		5D79697C21D1CABB00A4BF5E /* 2.3：求解500万以内的亲和数.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "2.3：求解500万以内的亲和数.py"; sourceTree = "<group>"; };
+		5D79697D21D1CABB00A4BF5E /* 2.3：求解500万以内的亲和数_2.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "2.3：求解500万以内的亲和数_2.py"; sourceTree = "<group>"; };
+		5D79697E21D1CABB00A4BF5E /* 2.4：寻找和为定值的两个数.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "2.4：寻找和为定值的两个数.py"; sourceTree = "<group>"; };
+		5D79697F21D1CABB00A4BF5E /* 2.6：求连续子数组的最大和.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "2.6：求连续子数组的最大和.py"; sourceTree = "<group>"; };
+		5D79698021D1CABB00A4BF5E /* 3.1：二分查找实现.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "3.1：二分查找实现.py"; sourceTree = "<group>"; };
+		5D79698121D1CABB00A4BF5E /* 3.2：杨氏矩阵查找.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "3.2：杨氏矩阵查找.py"; sourceTree = "<group>"; };
+		5D79698221D1CABB00A4BF5E /* 3.3：出现次数超过一半的数字.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "3.3：出现次数超过一半的数字.py"; sourceTree = "<group>"; };
+		5D79698321D1CABB00A4BF5E /* 6.5：全排列.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "6.5：全排列.py"; sourceTree = "<group>"; };
+		5D79698421D1CABB00A4BF5E /* 6.6：跳台阶.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "6.6：跳台阶.py"; sourceTree = "<group>"; };
+		5D79698521D1CABB00A4BF5E /* 6.8：第一个只出现一次等问题.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "6.8：第一个只出现一次等问题.py"; sourceTree = "<group>"; };
+		5D79698621D1CABB00A4BF5E /* 6.9：Trie树.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "6.9：Trie树.py"; sourceTree = "<group>"; };
+		5D79698721D1CABB00A4BF5E /* chapter04.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = chapter04.py; sourceTree = "<group>"; };
+		5D79698821D1CABB00A4BF5E /* rcdtype.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = rcdtype.py; sourceTree = "<group>"; };
+		5D79698A21D1CABB00A4BF5E /* 1.1：左旋转字符串.reb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "1.1：左旋转字符串.reb"; sourceTree = "<group>"; };
+		5D79698B21D1CABB00A4BF5E /* 1.2：字符串是否包含问题.reb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "1.2：字符串是否包含问题.reb"; sourceTree = "<group>"; };
+		5D79698D21D1CABB00A4BF5E /* chapter01.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = chapter01.rb; sourceTree = "<group>"; };
+		5D79698E21D1CABB00A4BF5E /* chapter02.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = chapter02.rb; sourceTree = "<group>"; };
+		5D79698F21D1CABB00A4BF5E /* chapter03.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = chapter03.rb; sourceTree = "<group>"; };
+		5D79699021D1CABB00A4BF5E /* chapter0301.searchTrend.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = chapter0301.searchTrend.rb; sourceTree = "<group>"; };
+		5D79699121D1CABB00A4BF5E /* chapter0302.quickSort.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = chapter0302.quickSort.rb; sourceTree = "<group>"; };
+		5D79699221D1CABB00A4BF5E /* chapter04.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = chapter04.rb; sourceTree = "<group>"; };
+		5D79699321D1CABB00A4BF5E /* chapter05.findSum.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = chapter05.findSum.rb; sourceTree = "<group>"; };
+		5D79699421D1CABB00A4BF5E /* chapter06.amicableNumber.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = chapter06.amicableNumber.rb; sourceTree = "<group>"; };
+		5D79699521D1CABB00A4BF5E /* chapter07.findMaxSum.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = chapter07.findMaxSum.rb; sourceTree = "<group>"; };
+		5D79699621D1CABB00A4BF5E /* chapter16.permutation.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = chapter16.permutation.rb; sourceTree = "<group>"; };
+		5D79699721D1CABB00A4BF5E /* chapter17.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = chapter17.rb; sourceTree = "<group>"; };
+		5D79699821D1CABB00A4BF5E /* chapter18.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = chapter18.rb; sourceTree = "<group>"; };
+		5D79699921D1CABB00A4BF5E /* chapter19.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = chapter19.rb; sourceTree = "<group>"; };
+		5D79699B21D1CABB00A4BF5E /* chapter01.scm */ = {isa = PBXFileReference; lastKnownFileType = text; path = chapter01.scm; sourceTree = "<group>"; };
+		5D79699C21D1CABB00A4BF5E /* chapter06.scm */ = {isa = PBXFileReference; lastKnownFileType = text; path = chapter06.scm; sourceTree = "<group>"; };
+		5D79699D21D1CABB00A4BF5E /* chapter06v2.scm */ = {isa = PBXFileReference; lastKnownFileType = text; path = chapter06v2.scm; sourceTree = "<group>"; };
+		5D79699E21D1CABB00A4BF5E /* chapter17.scm */ = {isa = PBXFileReference; lastKnownFileType = text; path = chapter17.scm; sourceTree = "<group>"; };
+		5D79699F21D1CABB00A4BF5E /* chapter25.scm */ = {isa = PBXFileReference; lastKnownFileType = text; path = chapter25.scm; sourceTree = "<group>"; };
 		E698586421AE7ACC00AA455B /* AlgorithmPlay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmPlay; sourceTree = BUILT_PRODUCTS_DIR; };
 		E698586721AE7ACC00AA455B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		E698586E21AE7BF200AA455B /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
@@ -44,6 +417,936 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D7967E521D1C6E500A4BF5E /* C */ = {
+			isa = PBXGroup;
+			children = (
+				5D7967E621D1C6E500A4BF5E /* CodingGuidelines.md */,
+				5D7967E721D1C6E500A4BF5E /* computer_oriented_statistical_methods */,
+				5D7967EF21D1C6E500A4BF5E /* conversions */,
+				5D7967F721D1C6E500A4BF5E /* data_structures */,
+				5D79681921D1C6E600A4BF5E /* exercism */,
+				5D79682A21D1C6E600A4BF5E /* hash */,
+				5D79682F21D1C6E600A4BF5E /* misc */,
+				5D79684221D1C6E600A4BF5E /* project_euler */,
+				5D79684D21D1C6E600A4BF5E /* README.md */,
+				5D79684E21D1C6E600A4BF5E /* searching */,
+				5D79685621D1C6E600A4BF5E /* sorting */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		5D7967E721D1C6E500A4BF5E /* computer_oriented_statistical_methods */ = {
+			isa = PBXGroup;
+			children = (
+				5D7967E821D1C6E500A4BF5E /* Gauss_Elimination.c */,
+				5D7967E921D1C6E500A4BF5E /* lagrange_theorem.C */,
+				5D7967EA21D1C6E500A4BF5E /* MEAN.C */,
+				5D7967EB21D1C6E500A4BF5E /* MEDIAN.C */,
+				5D7967EC21D1C6E500A4BF5E /* Seidal.C */,
+				5D7967ED21D1C6E500A4BF5E /* simpson's 1-3rd rule.c */,
+				5D7967EE21D1C6E500A4BF5E /* variance.c */,
+			);
+			path = computer_oriented_statistical_methods;
+			sourceTree = "<group>";
+		};
+		5D7967EF21D1C6E500A4BF5E /* conversions */ = {
+			isa = PBXGroup;
+			children = (
+				5D7967F021D1C6E500A4BF5E /* binary2octal.c */,
+				5D7967F121D1C6E500A4BF5E /* binary_to_decimal.c */,
+				5D7967F221D1C6E500A4BF5E /* binary_to_hexa.c */,
+				5D7967F321D1C6E500A4BF5E /* decimal _to_binary.c */,
+				5D7967F421D1C6E500A4BF5E /* decimal_to_hexa.c */,
+				5D7967F521D1C6E500A4BF5E /* decimal_to_octal.c */,
+				5D7967F621D1C6E500A4BF5E /* toDecimal.c */,
+			);
+			path = conversions;
+			sourceTree = "<group>";
+		};
+		5D7967F721D1C6E500A4BF5E /* data_structures */ = {
+			isa = PBXGroup;
+			children = (
+				5D7967F821D1C6E500A4BF5E /* Array */,
+				5D7967FD21D1C6E500A4BF5E /* binary_trees */,
+				5D79680121D1C6E500A4BF5E /* dictionary */,
+				5D79680621D1C6E500A4BF5E /* graphs */,
+				5D79680A21D1C6E600A4BF5E /* linked_list */,
+				5D79680E21D1C6E600A4BF5E /* queue.c */,
+				5D79680F21D1C6E600A4BF5E /* stack */,
+				5D79681521D1C6E600A4BF5E /* stack.c */,
+				5D79681621D1C6E600A4BF5E /* trie */,
+			);
+			path = data_structures;
+			sourceTree = "<group>";
+		};
+		5D7967F821D1C6E500A4BF5E /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				5D7967F921D1C6E500A4BF5E /* CArray.c */,
+				5D7967FA21D1C6E500A4BF5E /* CArray.h */,
+				5D7967FB21D1C6E500A4BF5E /* CArrayTests.c */,
+				5D7967FC21D1C6E500A4BF5E /* README.md */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		5D7967FD21D1C6E500A4BF5E /* binary_trees */ = {
+			isa = PBXGroup;
+			children = (
+				5D7967FE21D1C6E500A4BF5E /* binary_search_tree.c */,
+				5D7967FF21D1C6E500A4BF5E /* create_node.c */,
+				5D79680021D1C6E500A4BF5E /* recursive_traversals.c */,
+			);
+			path = binary_trees;
+			sourceTree = "<group>";
+		};
+		5D79680121D1C6E500A4BF5E /* dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				5D79680221D1C6E500A4BF5E /* dict.c */,
+				5D79680321D1C6E500A4BF5E /* dict.h */,
+				5D79680421D1C6E500A4BF5E /* README.md */,
+				5D79680521D1C6E500A4BF5E /* test_program.c */,
+			);
+			path = dictionary;
+			sourceTree = "<group>";
+		};
+		5D79680621D1C6E500A4BF5E /* graphs */ = {
+			isa = PBXGroup;
+			children = (
+				5D79680721D1C6E500A4BF5E /* Bellman-Ford.c */,
+				5D79680821D1C6E500A4BF5E /* Dijkstra.c */,
+				5D79680921D1C6E600A4BF5E /* Floyd-Warshall.c */,
+			);
+			path = graphs;
+			sourceTree = "<group>";
+		};
+		5D79680A21D1C6E600A4BF5E /* linked_list */ = {
+			isa = PBXGroup;
+			children = (
+				5D79680B21D1C6E600A4BF5E /* mergeLinkedLists.c */,
+				5D79680C21D1C6E600A4BF5E /* singly_link_list_deletion.c */,
+				5D79680D21D1C6E600A4BF5E /* stack_using_linkedlists.c */,
+			);
+			path = linked_list;
+			sourceTree = "<group>";
+		};
+		5D79680F21D1C6E600A4BF5E /* stack */ = {
+			isa = PBXGroup;
+			children = (
+				5D79681021D1C6E600A4BF5E /* balanced parenthesis using stack in C */,
+				5D79681121D1C6E600A4BF5E /* main.c */,
+				5D79681221D1C6E600A4BF5E /* README.md */,
+				5D79681321D1C6E600A4BF5E /* stack.c */,
+				5D79681421D1C6E600A4BF5E /* stack.h */,
+			);
+			path = stack;
+			sourceTree = "<group>";
+		};
+		5D79681621D1C6E600A4BF5E /* trie */ = {
+			isa = PBXGroup;
+			children = (
+				5D79681721D1C6E600A4BF5E /* dictionary.txt */,
+				5D79681821D1C6E600A4BF5E /* trie.c */,
+			);
+			path = trie;
+			sourceTree = "<group>";
+		};
+		5D79681921D1C6E600A4BF5E /* exercism */ = {
+			isa = PBXGroup;
+			children = (
+				5D79681A21D1C6E600A4BF5E /* acronym */,
+				5D79681D21D1C6E600A4BF5E /* hello-world */,
+				5D79682021D1C6E600A4BF5E /* isogram */,
+				5D79682321D1C6E600A4BF5E /* README.md */,
+				5D79682421D1C6E600A4BF5E /* rna-transcription */,
+				5D79682721D1C6E600A4BF5E /* word-count */,
+			);
+			path = exercism;
+			sourceTree = "<group>";
+		};
+		5D79681A21D1C6E600A4BF5E /* acronym */ = {
+			isa = PBXGroup;
+			children = (
+				5D79681B21D1C6E600A4BF5E /* acronym.c */,
+				5D79681C21D1C6E600A4BF5E /* acronym.h */,
+			);
+			path = acronym;
+			sourceTree = "<group>";
+		};
+		5D79681D21D1C6E600A4BF5E /* hello-world */ = {
+			isa = PBXGroup;
+			children = (
+				5D79681E21D1C6E600A4BF5E /* hello_world.c */,
+				5D79681F21D1C6E600A4BF5E /* hello_world.h */,
+			);
+			path = "hello-world";
+			sourceTree = "<group>";
+		};
+		5D79682021D1C6E600A4BF5E /* isogram */ = {
+			isa = PBXGroup;
+			children = (
+				5D79682121D1C6E600A4BF5E /* isogram.c */,
+				5D79682221D1C6E600A4BF5E /* isogram.h */,
+			);
+			path = isogram;
+			sourceTree = "<group>";
+		};
+		5D79682421D1C6E600A4BF5E /* rna-transcription */ = {
+			isa = PBXGroup;
+			children = (
+				5D79682521D1C6E600A4BF5E /* rna_transcription.c */,
+				5D79682621D1C6E600A4BF5E /* rna_transcription.h */,
+			);
+			path = "rna-transcription";
+			sourceTree = "<group>";
+		};
+		5D79682721D1C6E600A4BF5E /* word-count */ = {
+			isa = PBXGroup;
+			children = (
+				5D79682821D1C6E600A4BF5E /* word_count.c */,
+				5D79682921D1C6E600A4BF5E /* word_count.h */,
+			);
+			path = "word-count";
+			sourceTree = "<group>";
+		};
+		5D79682A21D1C6E600A4BF5E /* hash */ = {
+			isa = PBXGroup;
+			children = (
+				5D79682B21D1C6E600A4BF5E /* hash.c */,
+				5D79682C21D1C6E600A4BF5E /* hash.h */,
+				5D79682D21D1C6E600A4BF5E /* README.md */,
+				5D79682E21D1C6E600A4BF5E /* test_program.c */,
+			);
+			path = hash;
+			sourceTree = "<group>";
+		};
+		5D79682F21D1C6E600A4BF5E /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				5D79683021D1C6E600A4BF5E /* catalan.c */,
+				5D79683121D1C6E600A4BF5E /* Collatz.c */,
+				5D79683221D1C6E600A4BF5E /* demonetization.c */,
+				5D79683321D1C6E600A4BF5E /* Factorial.c */,
+				5D79683421D1C6E600A4BF5E /* factorial_trailing_zeroes.c */,
+				5D79683521D1C6E600A4BF5E /* Fibonacci.c */,
+				5D79683621D1C6E600A4BF5E /* GCD.c */,
+				5D79683721D1C6E600A4BF5E /* isArmstrong.c */,
+				5D79683821D1C6E600A4BF5E /* lexicographicPermutations.c */,
+				5D79683921D1C6E600A4BF5E /* LongestSubSequence.c */,
+				5D79683A21D1C6E600A4BF5E /* mirror */,
+				5D79683B21D1C6E600A4BF5E /* palindrome.c */,
+				5D79683C21D1C6E600A4BF5E /* Prime.c */,
+				5D79683D21D1C6E600A4BF5E /* QUARTILE.c */,
+				5D79683E21D1C6E600A4BF5E /* rselect.c */,
+				5D79683F21D1C6E600A4BF5E /* strongNumber.c */,
+				5D79684021D1C6E600A4BF5E /* sudokusolver.c */,
+				5D79684121D1C6E600A4BF5E /* TowerOfHanoi.c */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		5D79684221D1C6E600A4BF5E /* project_euler */ = {
+			isa = PBXGroup;
+			children = (
+				5D79684321D1C6E600A4BF5E /* Problem 01 */,
+				5D79684721D1C6E600A4BF5E /* Problem 02 */,
+				5D79684921D1C6E600A4BF5E /* Problem 03 */,
+				5D79684C21D1C6E600A4BF5E /* README.md */,
+			);
+			path = project_euler;
+			sourceTree = "<group>";
+		};
+		5D79684321D1C6E600A4BF5E /* Problem 01 */ = {
+			isa = PBXGroup;
+			children = (
+				5D79684421D1C6E600A4BF5E /* sol1.c */,
+				5D79684521D1C6E600A4BF5E /* sol2.c */,
+				5D79684621D1C6E600A4BF5E /* sol3.c */,
+			);
+			path = "Problem 01";
+			sourceTree = "<group>";
+		};
+		5D79684721D1C6E600A4BF5E /* Problem 02 */ = {
+			isa = PBXGroup;
+			children = (
+				5D79684821D1C6E600A4BF5E /* so1.c */,
+			);
+			path = "Problem 02";
+			sourceTree = "<group>";
+		};
+		5D79684921D1C6E600A4BF5E /* Problem 03 */ = {
+			isa = PBXGroup;
+			children = (
+				5D79684A21D1C6E600A4BF5E /* sol1.c */,
+				5D79684B21D1C6E600A4BF5E /* sol2.c */,
+			);
+			path = "Problem 03";
+			sourceTree = "<group>";
+		};
+		5D79684E21D1C6E600A4BF5E /* searching */ = {
+			isa = PBXGroup;
+			children = (
+				5D79684F21D1C6E600A4BF5E /* Binary_Search.c */,
+				5D79685021D1C6E600A4BF5E /* fibonacciSearch.c */,
+				5D79685121D1C6E600A4BF5E /* interpolation_search.c */,
+				5D79685221D1C6E600A4BF5E /* Jump_Search.c */,
+				5D79685321D1C6E600A4BF5E /* LinearSearch.c */,
+				5D79685421D1C6E600A4BF5E /* modifiedBinarySearch.c */,
+				5D79685521D1C6E600A4BF5E /* Other_Binary_Search.c */,
+			);
+			path = searching;
+			sourceTree = "<group>";
+		};
+		5D79685621D1C6E600A4BF5E /* sorting */ = {
+			isa = PBXGroup;
+			children = (
+				5D79685721D1C6E600A4BF5E /* binary_insertion_sort.c */,
+				5D79685821D1C6E600A4BF5E /* BogoSort.c */,
+				5D79685921D1C6E600A4BF5E /* BubbleSort.c */,
+				5D79685A21D1C6E600A4BF5E /* BucketSort.c */,
+				5D79685B21D1C6E600A4BF5E /* countingSort.c */,
+				5D79685C21D1C6E600A4BF5E /* HeapSort.c */,
+				5D79685D21D1C6E600A4BF5E /* InsertionSort.c */,
+				5D79685E21D1C6E600A4BF5E /* mergesort.c */,
+				5D79685F21D1C6E600A4BF5E /* OtherBubbleSort.c */,
+				5D79686021D1C6E600A4BF5E /* QuickSort.c */,
+				5D79686121D1C6E600A4BF5E /* SelectionSort.c */,
+				5D79686221D1C6E600A4BF5E /* shaker_sort.c */,
+				5D79686321D1C6E600A4BF5E /* shellSort.c */,
+			);
+			path = sorting;
+			sourceTree = "<group>";
+		};
+		5D79686421D1C7E200A4BF5E /* Learn-Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				5D79686521D1C7E200A4BF5E /* .gitignore */,
+				5D79686621D1C7E200A4BF5E /* 15 Classic Algorithms */,
+				5D79686821D1C7E200A4BF5E /* Algorithms Analysis */,
+				5D79687121D1C7E200A4BF5E /* Algorithms In Big Data */,
+				5D79687E21D1C7E200A4BF5E /* Algorithms In DB */,
+				5D79688021D1C7E200A4BF5E /* Algorithms In Open Source */,
+				5D79688321D1C7E200A4BF5E /* Algorithms Job Interview */,
+				5D7968CF21D1C7E200A4BF5E /* Binary Tree */,
+				5D7968EF21D1C7E200A4BF5E /* C Language Code Specification.md */,
+				5D7968F021D1C7E200A4BF5E /* Graph Algorithms */,
+				5D7968F221D1C7E200A4BF5E /* Hash Table */,
+				5D7968F721D1C7E200A4BF5E /* images */,
+				5D7968FE21D1C7E200A4BF5E /* Link Table */,
+				5D79690021D1C7E200A4BF5E /* README.md */,
+				5D79690121D1C7E200A4BF5E /* Search Algorithms */,
+				5D79690321D1C7E200A4BF5E /* Sort */,
+				5D79690D21D1C7E200A4BF5E /* String */,
+			);
+			path = "Learn-Algorithms";
+			sourceTree = "<group>";
+		};
+		5D79686621D1C7E200A4BF5E /* 15 Classic Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				5D79686721D1C7E200A4BF5E /* README.md */,
+			);
+			path = "15 Classic Algorithms";
+			sourceTree = "<group>";
+		};
+		5D79686821D1C7E200A4BF5E /* Algorithms Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				5D79686921D1C7E200A4BF5E /* README.md */,
+				5D79686A21D1C7E200A4BF5E /* 分治算法.md */,
+				5D79686B21D1C7E200A4BF5E /* 动态规划.md */,
+				5D79686C21D1C7E200A4BF5E /* 回溯法.md */,
+				5D79686D21D1C7E200A4BF5E /* 穷举搜索法.md */,
+				5D79686E21D1C7E200A4BF5E /* 贪心算法.md */,
+				5D79686F21D1C7E200A4BF5E /* 迭代法.md */,
+				5D79687021D1C7E200A4BF5E /* 递归.md */,
+			);
+			path = "Algorithms Analysis";
+			sourceTree = "<group>";
+		};
+		5D79687121D1C7E200A4BF5E /* Algorithms In Big Data */ = {
+			isa = PBXGroup;
+			children = (
+				5D79687221D1C7E200A4BF5E /* Bitmap.md */,
+				5D79687321D1C7E200A4BF5E /* Bloom filter(布隆过滤器).md */,
+				5D79687421D1C7E200A4BF5E /* btree_insert.gif */,
+				5D79687521D1C7E200A4BF5E /* disk_search.png */,
+				5D79687621D1C7E200A4BF5E /* Hash映射,分而治之.md */,
+				5D79687721D1C7E200A4BF5E /* README.md */,
+				5D79687821D1C7E200A4BF5E /* simhash算法.md */,
+				5D79687921D1C7E200A4BF5E /* 倒排索引(Inverted Index).md */,
+				5D79687A21D1C7E200A4BF5E /* 分布处理之Mapreduce.md */,
+				5D79687B21D1C7E200A4BF5E /* 双层桶划分.md */,
+				5D79687C21D1C7E200A4BF5E /* 外排序.md */,
+				5D79687D21D1C7E200A4BF5E /* 数据库索引.md */,
+			);
+			path = "Algorithms In Big Data";
+			sourceTree = "<group>";
+		};
+		5D79687E21D1C7E200A4BF5E /* Algorithms In DB */ = {
+			isa = PBXGroup;
+			children = (
+				5D79687F21D1C7E200A4BF5E /* README.md */,
+			);
+			path = "Algorithms In DB";
+			sourceTree = "<group>";
+		};
+		5D79688021D1C7E200A4BF5E /* Algorithms In Open Source */ = {
+			isa = PBXGroup;
+			children = (
+				5D79688121D1C7E200A4BF5E /* README.md */,
+				5D79688221D1C7E200A4BF5E /* YYCache.md */,
+			);
+			path = "Algorithms In Open Source";
+			sourceTree = "<group>";
+		};
+		5D79688321D1C7E200A4BF5E /* Algorithms Job Interview */ = {
+			isa = PBXGroup;
+			children = (
+				5D79688421D1C7E200A4BF5E /* leetcode.md */,
+				5D79688521D1C7E200A4BF5E /* README.md */,
+				5D79688621D1C7E200A4BF5E /* 九度OJ.md */,
+				5D79688721D1C7E200A4BF5E /* 二叉树.md */,
+				5D79688821D1C7E200A4BF5E /* 剑指offer */,
+				5D79688A21D1C7E200A4BF5E /* 图.md */,
+				5D79688B21D1C7E200A4BF5E /* 堆和栈.md */,
+				5D79688C21D1C7E200A4BF5E /* 字符串.md */,
+				5D79688D21D1C7E200A4BF5E /* 数值问题.md */,
+				5D79688E21D1C7E200A4BF5E /* 数组数列问题.md */,
+				5D79688F21D1C7E200A4BF5E /* 智力思维训练.md */,
+				5D79689021D1C7E200A4BF5E /* 测试代码 */,
+				5D7968C921D1C7E200A4BF5E /* 海量数据处理.md */,
+				5D7968CA21D1C7E200A4BF5E /* 矩阵.md */,
+				5D7968CB21D1C7E200A4BF5E /* 系统设计.md */,
+				5D7968CC21D1C7E200A4BF5E /* 编程之美 */,
+				5D7968CE21D1C7E200A4BF5E /* 链表.md */,
+			);
+			path = "Algorithms Job Interview";
+			sourceTree = "<group>";
+		};
+		5D79688821D1C7E200A4BF5E /* 剑指offer */ = {
+			isa = PBXGroup;
+			children = (
+				5D79688921D1C7E200A4BF5E /* README.md */,
+			);
+			path = "剑指offer";
+			sourceTree = "<group>";
+		};
+		5D79689021D1C7E200A4BF5E /* 测试代码 */ = {
+			isa = PBXGroup;
+			children = (
+				5D79689121D1C7E200A4BF5E /* 1.c */,
+				5D79689221D1C7E200A4BF5E /* 10.c */,
+				5D79689321D1C7E200A4BF5E /* 11.c */,
+				5D79689421D1C7E200A4BF5E /* 12.c */,
+				5D79689521D1C7E200A4BF5E /* 2.c */,
+				5D79689621D1C7E200A4BF5E /* 20.c */,
+				5D79689721D1C7E200A4BF5E /* 21.c */,
+				5D79689821D1C7E200A4BF5E /* 22.c */,
+				5D79689921D1C7E200A4BF5E /* 23.c */,
+				5D79689A21D1C7E200A4BF5E /* 24.c */,
+				5D79689B21D1C7E200A4BF5E /* 25.c */,
+				5D79689C21D1C7E200A4BF5E /* 26.c */,
+				5D79689D21D1C7E200A4BF5E /* 27.c */,
+				5D79689E21D1C7E200A4BF5E /* 28.c */,
+				5D79689F21D1C7E200A4BF5E /* 3.c */,
+				5D7968A021D1C7E200A4BF5E /* 4-1.c */,
+				5D7968A121D1C7E200A4BF5E /* 5.c */,
+				5D7968A221D1C7E200A4BF5E /* 6.c */,
+				5D7968A321D1C7E200A4BF5E /* 7.c */,
+				5D7968A421D1C7E200A4BF5E /* 8.c */,
+				5D7968A521D1C7E200A4BF5E /* 9.c */,
+				5D7968A621D1C7E200A4BF5E /* bt1.c */,
+				5D7968A721D1C7E200A4BF5E /* c1.c */,
+				5D7968A821D1C7E200A4BF5E /* c10.c */,
+				5D7968A921D1C7E200A4BF5E /* c11-2.c */,
+				5D7968AA21D1C7E200A4BF5E /* c11.c */,
+				5D7968AB21D1C7E200A4BF5E /* c12.c */,
+				5D7968AC21D1C7E200A4BF5E /* c13-1.c */,
+				5D7968AD21D1C7E200A4BF5E /* c13-2.c */,
+				5D7968AE21D1C7E200A4BF5E /* c14.c */,
+				5D7968AF21D1C7E200A4BF5E /* c15.c */,
+				5D7968B021D1C7E200A4BF5E /* c16.c */,
+				5D7968B121D1C7E200A4BF5E /* c17.c */,
+				5D7968B221D1C7E200A4BF5E /* c18.c */,
+				5D7968B321D1C7E200A4BF5E /* c19.c */,
+				5D7968B421D1C7E200A4BF5E /* c2.c */,
+				5D7968B521D1C7E200A4BF5E /* c20.c */,
+				5D7968B621D1C7E200A4BF5E /* c3.c */,
+				5D7968B721D1C7E200A4BF5E /* c4.c */,
+				5D7968B821D1C7E200A4BF5E /* c5.c */,
+				5D7968B921D1C7E200A4BF5E /* c6.c */,
+				5D7968BA21D1C7E200A4BF5E /* c7.c */,
+				5D7968BB21D1C7E200A4BF5E /* c8.c */,
+				5D7968BC21D1C7E200A4BF5E /* c9.c */,
+				5D7968BD21D1C7E200A4BF5E /* char_first_appear_once.c */,
+				5D7968BE21D1C7E200A4BF5E /* delete_occurence_character.c */,
+				5D7968BF21D1C7E200A4BF5E /* fibonacci.c */,
+				5D7968C021D1C7E200A4BF5E /* longest_continuious_number.c */,
+				5D7968C121D1C7E200A4BF5E /* most_visit_ip.c */,
+				5D7968C221D1C7E200A4BF5E /* one_appear_count_by_binary.c */,
+				5D7968C321D1C7E200A4BF5E /* Power.c */,
+				5D7968C421D1C7E200A4BF5E /* print_matrix.c */,
+				5D7968C521D1C7E200A4BF5E /* proc.c */,
+				5D7968C621D1C7E200A4BF5E /* replce_blank.c */,
+				5D7968C721D1C7E200A4BF5E /* revert_by_word.c */,
+				5D7968C821D1C7E200A4BF5E /* string.c */,
+			);
+			path = "测试代码";
+			sourceTree = "<group>";
+		};
+		5D7968CC21D1C7E200A4BF5E /* 编程之美 */ = {
+			isa = PBXGroup;
+			children = (
+				5D7968CD21D1C7E200A4BF5E /* README.md */,
+			);
+			path = "编程之美";
+			sourceTree = "<group>";
+		};
+		5D7968CF21D1C7E200A4BF5E /* Binary Tree */ = {
+			isa = PBXGroup;
+			children = (
+				5D7968D021D1C7E200A4BF5E /* 1-二叉树  */,
+				5D7968D921D1C7E200A4BF5E /* 2-二叉查找树 */,
+				5D7968E021D1C7E200A4BF5E /* 3-平衡树AVL */,
+				5D7968E321D1C7E200A4BF5E /* 4-字典树Trie */,
+				5D7968E621D1C7E200A4BF5E /* 8-二叉堆(优先队列) */,
+				5D7968E821D1C7E200A4BF5E /* B树.md */,
+				5D7968E921D1C7E200A4BF5E /* README.md */,
+				5D7968EA21D1C7E200A4BF5E /* 二叉查找树.md */,
+				5D7968EB21D1C7E200A4BF5E /* 伸展树.md */,
+				5D7968EC21D1C7E200A4BF5E /* 后缀树.md */,
+				5D7968ED21D1C7E200A4BF5E /* 字典树.md */,
+				5D7968EE21D1C7E200A4BF5E /* 赫夫曼编码.md */,
+			);
+			path = "Binary Tree";
+			sourceTree = "<group>";
+		};
+		5D7968D021D1C7E200A4BF5E /* 1-二叉树  */ = {
+			isa = PBXGroup;
+			children = (
+				5D7968D121D1C7E200A4BF5E /* btree */,
+				5D7968D621D1C7E200A4BF5E /* btree.c */,
+				5D7968D721D1C7E200A4BF5E /* rbtree.c */,
+				5D7968D821D1C7E200A4BF5E /* suffix_tree.c */,
+			);
+			path = "1-二叉树 ";
+			sourceTree = "<group>";
+		};
+		5D7968D121D1C7E200A4BF5E /* btree */ = {
+			isa = PBXGroup;
+			children = (
+				5D7968D221D1C7E200A4BF5E /* bintree.c */,
+				5D7968D321D1C7E200A4BF5E /* btree */,
+				5D7968D421D1C7E200A4BF5E /* public.h */,
+				5D7968D521D1C7E200A4BF5E /* 队列.h */,
+			);
+			path = btree;
+			sourceTree = "<group>";
+		};
+		5D7968D921D1C7E200A4BF5E /* 2-二叉查找树 */ = {
+			isa = PBXGroup;
+			children = (
+				5D7968DA21D1C7E200A4BF5E /* BiSearchTree */,
+			);
+			path = "2-二叉查找树";
+			sourceTree = "<group>";
+		};
+		5D7968DA21D1C7E200A4BF5E /* BiSearchTree */ = {
+			isa = PBXGroup;
+			children = (
+				5D7968DB21D1C7E200A4BF5E /* bisearch */,
+				5D7968DC21D1C7E200A4BF5E /* bisearchtree.c */,
+				5D7968DD21D1C7E200A4BF5E /* bisearchtree.h */,
+				5D7968DE21D1C7E200A4BF5E /* main.c */,
+				5D7968DF21D1C7E200A4BF5E /* README.md */,
+			);
+			path = BiSearchTree;
+			sourceTree = "<group>";
+		};
+		5D7968E021D1C7E200A4BF5E /* 3-平衡树AVL */ = {
+			isa = PBXGroup;
+			children = (
+				5D7968E121D1C7E200A4BF5E /* AVLTree.c */,
+				5D7968E221D1C7E200A4BF5E /* README.md */,
+			);
+			path = "3-平衡树AVL";
+			sourceTree = "<group>";
+		};
+		5D7968E321D1C7E200A4BF5E /* 4-字典树Trie */ = {
+			isa = PBXGroup;
+			children = (
+				5D7968E421D1C7E200A4BF5E /* README.md */,
+				5D7968E521D1C7E200A4BF5E /* trie.c */,
+			);
+			path = "4-字典树Trie";
+			sourceTree = "<group>";
+		};
+		5D7968E621D1C7E200A4BF5E /* 8-二叉堆(优先队列) */ = {
+			isa = PBXGroup;
+			children = (
+				5D7968E721D1C7E200A4BF5E /* heap.c */,
+			);
+			path = "8-二叉堆(优先队列)";
+			sourceTree = "<group>";
+		};
+		5D7968F021D1C7E200A4BF5E /* Graph Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				5D7968F121D1C7E200A4BF5E /* README.md */,
+			);
+			path = "Graph Algorithms";
+			sourceTree = "<group>";
+		};
+		5D7968F221D1C7E200A4BF5E /* Hash Table */ = {
+			isa = PBXGroup;
+			children = (
+				5D7968F321D1C7E200A4BF5E /* hash_ref.c */,
+				5D7968F421D1C7E200A4BF5E /* hashmap.png */,
+				5D7968F521D1C7E200A4BF5E /* HashTable.c */,
+				5D7968F621D1C7E200A4BF5E /* README.md */,
+			);
+			path = "Hash Table";
+			sourceTree = "<group>";
+		};
+		5D7968F721D1C7E200A4BF5E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5D7968F821D1C7E200A4BF5E /* bubble-sort.gif */,
+				5D7968F921D1C7E200A4BF5E /* fast-sort.gif */,
+				5D7968FA21D1C7E200A4BF5E /* heap-sort.gif */,
+				5D7968FB21D1C7E200A4BF5E /* merge-sort.gif */,
+				5D7968FC21D1C7E200A4BF5E /* select-sort.gif */,
+				5D7968FD21D1C7E200A4BF5E /* shell-sort.gif */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		5D7968FE21D1C7E200A4BF5E /* Link Table */ = {
+			isa = PBXGroup;
+			children = (
+				5D7968FF21D1C7E200A4BF5E /* README.md */,
+			);
+			path = "Link Table";
+			sourceTree = "<group>";
+		};
+		5D79690121D1C7E200A4BF5E /* Search Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				5D79690221D1C7E200A4BF5E /* README.md */,
+			);
+			path = "Search Algorithms";
+			sourceTree = "<group>";
+		};
+		5D79690321D1C7E200A4BF5E /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				5D79690421D1C7E200A4BF5E /* 8.c */,
+				5D79690521D1C7E200A4BF5E /* bubblesort.gif */,
+				5D79690621D1C7E200A4BF5E /* heapsort.gif */,
+				5D79690721D1C7E200A4BF5E /* insert_srot.c */,
+				5D79690821D1C7E200A4BF5E /* mergesort.gif */,
+				5D79690921D1C7E200A4BF5E /* qsort.gif */,
+				5D79690A21D1C7E200A4BF5E /* README.md */,
+				5D79690B21D1C7E200A4BF5E /* selectsort.gif */,
+				5D79690C21D1C7E200A4BF5E /* shellsort.gif */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		5D79690D21D1C7E200A4BF5E /* String */ = {
+			isa = PBXGroup;
+			children = (
+				5D79690E21D1C7E200A4BF5E /* README.md */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		5D79690F21D1CABB00A4BF5E /* The-Art-Of-Programming */ = {
+			isa = PBXGroup;
+			children = (
+				5D79691021D1CABB00A4BF5E /* c */,
+				5D79693621D1CABB00A4BF5E /* cpp */,
+				5D79694021D1CABB00A4BF5E /* erlang */,
+				5D79694421D1CABB00A4BF5E /* go */,
+				5D79694C21D1CABB00A4BF5E /* java */,
+				5D79696421D1CABB00A4BF5E /* js */,
+				5D79697121D1CABB00A4BF5E /* php */,
+				5D79697521D1CABB00A4BF5E /* python */,
+				5D79698921D1CABB00A4BF5E /* rebol */,
+				5D79698C21D1CABB00A4BF5E /* ruby */,
+				5D79699A21D1CABB00A4BF5E /* scheme */,
+			);
+			path = "The-Art-Of-Programming";
+			sourceTree = "<group>";
+		};
+		5D79691021D1CABB00A4BF5E /* c */ = {
+			isa = PBXGroup;
+			children = (
+				5D79691121D1CABB00A4BF5E /* 1.1：左旋转字符串.c */,
+				5D79691221D1CABB00A4BF5E /* 1.2：字符串是否包含问题.c */,
+				5D79691321D1CABB00A4BF5E /* 1.3：带通配符的字符串匹配问题.c */,
+				5D79691421D1CABB00A4BF5E /* 1.4：字符串转换成整数.c */,
+				5D79691521D1CABB00A4BF5E /* 1.7：字符串的全排列.c */,
+				5D79691621D1CABB00A4BF5E /* 10.1.3：教你一步一步用c语言实现sift算法、下.c */,
+				5D79691721D1CABB00A4BF5E /* 2.1：寻找最小的 k 个数.c */,
+				5D79691821D1CABB00A4BF5E /* 2.2：求给定区间的第K小元素.c */,
+				5D79691921D1CABB00A4BF5E /* 2.3：求解500万以内的亲和数.c */,
+				5D79691A21D1CABB00A4BF5E /* 2.4：寻找和为定值的两个数.c */,
+				5D79691B21D1CABB00A4BF5E /* 2.5：寻找和为定值的多个数.c */,
+				5D79691C21D1CABB00A4BF5E /* 2.6：求连续子数组的最大和.c */,
+				5D79691D21D1CABB00A4BF5E /* 2.7：奇偶排序.c */,
+				5D79691E21D1CABB00A4BF5E /* 2.7：荷兰国旗问题.c */,
+				5D79691F21D1CABB00A4BF5E /* 2.8：矩阵相乘之Strassen算法.c */,
+				5D79692021D1CABB00A4BF5E /* 3.1：二分查找实现.c */,
+				5D79692121D1CABB00A4BF5E /* 3.2：杨氏矩阵查找.c */,
+				5D79692221D1CABB00A4BF5E /* 4.1：木块砌墙.c */,
+				5D79692321D1CABB00A4BF5E /* 4.2：格子取数问题.c */,
+				5D79692421D1CABB00A4BF5E /* 4.3：出现次数超过一半的数字.c */,
+				5D79692521D1CABB00A4BF5E /* 4.3：完美洗牌算法.c */,
+				5D79692621D1CABB00A4BF5E /* 4.4：最近公共祖先LCA问题.LCAProblem.c */,
+				5D79692721D1CABB00A4BF5E /* 4.5：打印螺旋矩阵.SpiralMatrix.c */,
+				5D79692821D1CABB00A4BF5E /* 5.1：最长公共子序列（LCS）问题.c */,
+				5D79692921D1CABB00A4BF5E /* 5.2：最大连续乘积子串.c */,
+				5D79692A21D1CABB00A4BF5E /* 5.3：字符串编辑距离.c */,
+				5D79692B21D1CABB00A4BF5E /* 5.4：交替字符串.c */,
+				5D79692C21D1CABB00A4BF5E /* 6.11：最小操作数.c */,
+				5D79692D21D1CABB00A4BF5E /* 6.4：回文判断.c */,
+				5D79692E21D1CABB00A4BF5E /* 6.6：跳台阶问题.c */,
+				5D79692F21D1CABB00A4BF5E /* 6.8：第一个只出现一次的字符.c */,
+				5D79693021D1CABB00A4BF5E /* 6.9：Trie树.c */,
+				5D79693121D1CABB00A4BF5E /* 7.1：搜索引擎热门查询统计.c */,
+				5D79693221D1CABB00A4BF5E /* 7.2：最短摘要的生成.c */,
+				5D79693321D1CABB00A4BF5E /* 7.3：倒排索引关键词不重复Hash编码.c */,
+				5D79693421D1CABB00A4BF5E /* 7.4：倒排索引关键词 Hash 不重复编码实践.c */,
+				5D79693521D1CABB00A4BF5E /* makefile */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		5D79693621D1CABB00A4BF5E /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				5D79693721D1CABB00A4BF5E /* 1.1：左旋转字符串.cpp */,
+				5D79693821D1CABB00A4BF5E /* 2.1：寻找最小的 k 个数.cpp */,
+				5D79693921D1CABB00A4BF5E /* 3.1：二分查找实现(Jon Bentley */,
+				5D79693A21D1CABB00A4BF5E /* 4.2：完美洗牌算法.cpp */,
+				5D79693B21D1CABB00A4BF5E /* 7.4：倒排索引关键词 Hash 不重复编码实践.cpp */,
+				5D79693C21D1CABB00A4BF5E /* 9.2：海量数据处理之Bit-map详解.cpp */,
+				5D79693D21D1CABB00A4BF5E /* chapter04.cpp */,
+				5D79693E21D1CABB00A4BF5E /* chapter06.cpp */,
+				5D79693F21D1CABB00A4BF5E /* makefile */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+		5D79694021D1CABB00A4BF5E /* erlang */ = {
+			isa = PBXGroup;
+			children = (
+				5D79694121D1CABB00A4BF5E /* 1.1：左旋转字符串.erl */,
+				5D79694221D1CABB00A4BF5E /* 3.1：二分查找实现.erl */,
+				5D79694321D1CABB00A4BF5E /* 6.4：回文判断.erl */,
+			);
+			path = erlang;
+			sourceTree = "<group>";
+		};
+		5D79694421D1CABB00A4BF5E /* go */ = {
+			isa = PBXGroup;
+			children = (
+				5D79694521D1CABB00A4BF5E /* 1.1-左旋转字符串.go */,
+				5D79694621D1CABB00A4BF5E /* 1.2-字符串是否包含问题.go */,
+				5D79694721D1CABB00A4BF5E /* 1.5-回文判断.go */,
+				5D79694821D1CABB00A4BF5E /* 2.1-寻找最小的k个数.go */,
+				5D79694921D1CABB00A4BF5E /* 2.2-求数组中给定下标区间内的第K小元素.go */,
+				5D79694A21D1CABB00A4BF5E /* 3.2-杨氏矩阵查找.go */,
+				5D79694B21D1CABB00A4BF5E /* 3.3：出现次数超过一半的数字.go */,
+			);
+			path = go;
+			sourceTree = "<group>";
+		};
+		5D79694C21D1CABB00A4BF5E /* java */ = {
+			isa = PBXGroup;
+			children = (
+				5D79694D21D1CABB00A4BF5E /* chapter1 */,
+				5D79695321D1CABB00A4BF5E /* chapter2 */,
+				5D79695B21D1CABB00A4BF5E /* chapter3 */,
+				5D79696021D1CABB00A4BF5E /* chapter4 */,
+				5D79696221D1CABB00A4BF5E /* chapter6 */,
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		5D79694D21D1CABB00A4BF5E /* chapter1 */ = {
+			isa = PBXGroup;
+			children = (
+				5D79694E21D1CABB00A4BF5E /* 1.1：左旋转字符串.java */,
+				5D79694F21D1CABB00A4BF5E /* 1.2：字符串包含.java */,
+				5D79695021D1CABB00A4BF5E /* Chapter1.java */,
+				5D79695121D1CABB00A4BF5E /* Palindrome.java */,
+				5D79695221D1CABB00A4BF5E /* StringToInt */,
+			);
+			path = chapter1;
+			sourceTree = "<group>";
+		};
+		5D79695321D1CABB00A4BF5E /* chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				5D79695421D1CABB00A4BF5E /* Chapter2.java */,
+				5D79695521D1CABB00A4BF5E /* CountAndCompare.java */,
+				5D79695621D1CABB00A4BF5E /* HashTableCompare.java */,
+				5D79695721D1CABB00A4BF5E /* ICompare.java */,
+				5D79695821D1CABB00A4BF5E /* PrimeCompare.java */,
+				5D79695921D1CABB00A4BF5E /* SortAndCompare.java */,
+				5D79695A21D1CABB00A4BF5E /* TopK.java */,
+			);
+			path = chapter2;
+			sourceTree = "<group>";
+		};
+		5D79695B21D1CABB00A4BF5E /* chapter3 */ = {
+			isa = PBXGroup;
+			children = (
+				5D79695C21D1CABB00A4BF5E /* Chapter3.java */,
+				5D79695D21D1CABB00A4BF5E /* HeapSolution.java */,
+				5D79695E21D1CABB00A4BF5E /* IFindMinK.java */,
+				5D79695F21D1CABB00A4BF5E /* MaxHeap.java */,
+			);
+			path = chapter3;
+			sourceTree = "<group>";
+		};
+		5D79696021D1CABB00A4BF5E /* chapter4 */ = {
+			isa = PBXGroup;
+			children = (
+				5D79696121D1CABB00A4BF5E /* Chapter4.java */,
+			);
+			path = chapter4;
+			sourceTree = "<group>";
+		};
+		5D79696221D1CABB00A4BF5E /* chapter6 */ = {
+			isa = PBXGroup;
+			children = (
+				5D79696321D1CABB00A4BF5E /* Chapter6.java */,
+			);
+			path = chapter6;
+			sourceTree = "<group>";
+		};
+		5D79696421D1CABB00A4BF5E /* js */ = {
+			isa = PBXGroup;
+			children = (
+				5D79696521D1CABB00A4BF5E /* 1.1：左旋转字符串 */,
+				5D79696921D1CABB00A4BF5E /* 1.2：字符串是否包含问题 */,
+				5D79696D21D1CABB00A4BF5E /* 2.4：寻找和为定值的两个数 */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		5D79696521D1CABB00A4BF5E /* 1.1：左旋转字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				5D79696621D1CABB00A4BF5E /* 1.1：左旋转字符串.js */,
+				5D79696721D1CABB00A4BF5E /* test.html */,
+				5D79696821D1CABB00A4BF5E /* tests.js */,
+			);
+			path = "1.1：左旋转字符串";
+			sourceTree = "<group>";
+		};
+		5D79696921D1CABB00A4BF5E /* 1.2：字符串是否包含问题 */ = {
+			isa = PBXGroup;
+			children = (
+				5D79696A21D1CABB00A4BF5E /* 1.2：字符串是否包含问题.js */,
+				5D79696B21D1CABB00A4BF5E /* test.html */,
+				5D79696C21D1CABB00A4BF5E /* tests.js */,
+			);
+			path = "1.2：字符串是否包含问题";
+			sourceTree = "<group>";
+		};
+		5D79696D21D1CABB00A4BF5E /* 2.4：寻找和为定值的两个数 */ = {
+			isa = PBXGroup;
+			children = (
+				5D79696E21D1CABB00A4BF5E /* 2.4：寻找和为定值的两个数.js */,
+				5D79696F21D1CABB00A4BF5E /* test.html */,
+				5D79697021D1CABB00A4BF5E /* tests.js */,
+			);
+			path = "2.4：寻找和为定值的两个数";
+			sourceTree = "<group>";
+		};
+		5D79697121D1CABB00A4BF5E /* php */ = {
+			isa = PBXGroup;
+			children = (
+				5D79697221D1CABB00A4BF5E /* chapter1.php */,
+				5D79697321D1CABB00A4BF5E /* chapter2.php */,
+				5D79697421D1CABB00A4BF5E /* chapter3.php */,
+			);
+			path = php;
+			sourceTree = "<group>";
+		};
+		5D79697521D1CABB00A4BF5E /* python */ = {
+			isa = PBXGroup;
+			children = (
+				5D79697621D1CABB00A4BF5E /* 1.1：字符的移动.py */,
+				5D79697721D1CABB00A4BF5E /* 1.2：字符串是否包含问题.py */,
+				5D79697821D1CABB00A4BF5E /* 1.5：回文判断.py */,
+				5D79697921D1CABB00A4BF5E /* 1.6：最长回文子串.py */,
+				5D79697A21D1CABB00A4BF5E /* 2.1：寻找最小的k个数.py */,
+				5D79697B21D1CABB00A4BF5E /* 2.1：寻找最小的k个数_2.py */,
+				5D79697C21D1CABB00A4BF5E /* 2.3：求解500万以内的亲和数.py */,
+				5D79697D21D1CABB00A4BF5E /* 2.3：求解500万以内的亲和数_2.py */,
+				5D79697E21D1CABB00A4BF5E /* 2.4：寻找和为定值的两个数.py */,
+				5D79697F21D1CABB00A4BF5E /* 2.6：求连续子数组的最大和.py */,
+				5D79698021D1CABB00A4BF5E /* 3.1：二分查找实现.py */,
+				5D79698121D1CABB00A4BF5E /* 3.2：杨氏矩阵查找.py */,
+				5D79698221D1CABB00A4BF5E /* 3.3：出现次数超过一半的数字.py */,
+				5D79698321D1CABB00A4BF5E /* 6.5：全排列.py */,
+				5D79698421D1CABB00A4BF5E /* 6.6：跳台阶.py */,
+				5D79698521D1CABB00A4BF5E /* 6.8：第一个只出现一次等问题.py */,
+				5D79698621D1CABB00A4BF5E /* 6.9：Trie树.py */,
+				5D79698721D1CABB00A4BF5E /* chapter04.py */,
+				5D79698821D1CABB00A4BF5E /* rcdtype.py */,
+			);
+			path = python;
+			sourceTree = "<group>";
+		};
+		5D79698921D1CABB00A4BF5E /* rebol */ = {
+			isa = PBXGroup;
+			children = (
+				5D79698A21D1CABB00A4BF5E /* 1.1：左旋转字符串.reb */,
+				5D79698B21D1CABB00A4BF5E /* 1.2：字符串是否包含问题.reb */,
+			);
+			path = rebol;
+			sourceTree = "<group>";
+		};
+		5D79698C21D1CABB00A4BF5E /* ruby */ = {
+			isa = PBXGroup;
+			children = (
+				5D79698D21D1CABB00A4BF5E /* chapter01.rb */,
+				5D79698E21D1CABB00A4BF5E /* chapter02.rb */,
+				5D79698F21D1CABB00A4BF5E /* chapter03.rb */,
+				5D79699021D1CABB00A4BF5E /* chapter0301.searchTrend.rb */,
+				5D79699121D1CABB00A4BF5E /* chapter0302.quickSort.rb */,
+				5D79699221D1CABB00A4BF5E /* chapter04.rb */,
+				5D79699321D1CABB00A4BF5E /* chapter05.findSum.rb */,
+				5D79699421D1CABB00A4BF5E /* chapter06.amicableNumber.rb */,
+				5D79699521D1CABB00A4BF5E /* chapter07.findMaxSum.rb */,
+				5D79699621D1CABB00A4BF5E /* chapter16.permutation.rb */,
+				5D79699721D1CABB00A4BF5E /* chapter17.rb */,
+				5D79699821D1CABB00A4BF5E /* chapter18.rb */,
+				5D79699921D1CABB00A4BF5E /* chapter19.rb */,
+			);
+			path = ruby;
+			sourceTree = "<group>";
+		};
+		5D79699A21D1CABB00A4BF5E /* scheme */ = {
+			isa = PBXGroup;
+			children = (
+				5D79699B21D1CABB00A4BF5E /* chapter01.scm */,
+				5D79699C21D1CABB00A4BF5E /* chapter06.scm */,
+				5D79699D21D1CABB00A4BF5E /* chapter06v2.scm */,
+				5D79699E21D1CABB00A4BF5E /* chapter17.scm */,
+				5D79699F21D1CABB00A4BF5E /* chapter25.scm */,
+			);
+			path = scheme;
+			sourceTree = "<group>";
+		};
 		E698585B21AE7ACC00AA455B = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +1366,9 @@
 		E698586621AE7ACC00AA455B /* AlgorithmPlay */ = {
 			isa = PBXGroup;
 			children = (
+				5D79690F21D1CABB00A4BF5E /* The-Art-Of-Programming */,
+				5D79686421D1C7E200A4BF5E /* Learn-Algorithms */,
+				5D7967E521D1C6E500A4BF5E /* C */,
 				E698586721AE7ACC00AA455B /* main.c */,
 				E698586E21AE7BF200AA455B /* Helper.h */,
 				E698586F21AE7BF200AA455B /* Helper.c */,
