@@ -59,7 +59,7 @@
 		5D79680D21D1C6E600A4BF5E /* stack_using_linkedlists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack_using_linkedlists.c; sourceTree = "<group>"; };
 		5D79680E21D1C6E600A4BF5E /* queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
 		5D79681021D1C6E600A4BF5E /* balanced parenthesis using stack in C */ = {isa = PBXFileReference; lastKnownFileType = text; path = "balanced parenthesis using stack in C"; sourceTree = "<group>"; };
-		5D79681121D1C6E600A4BF5E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5D79681121D1C6E600A4BF5E /* main_stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main_stack.c; sourceTree = "<group>"; };
 		5D79681221D1C6E600A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5D79681321D1C6E600A4BF5E /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
 		5D79681421D1C6E600A4BF5E /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
@@ -234,7 +234,7 @@
 		5D7968DB21D1C7E200A4BF5E /* bisearch */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = bisearch; sourceTree = "<group>"; };
 		5D7968DC21D1C7E200A4BF5E /* bisearchtree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bisearchtree.c; sourceTree = "<group>"; };
 		5D7968DD21D1C7E200A4BF5E /* bisearchtree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bisearchtree.h; sourceTree = "<group>"; };
-		5D7968DE21D1C7E200A4BF5E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5D7968DE21D1C7E200A4BF5E /* main_biSearchTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main_biSearchTree.c; sourceTree = "<group>"; };
 		5D7968DF21D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5D7968E121D1C7E200A4BF5E /* AVLTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = AVLTree.c; sourceTree = "<group>"; };
 		5D7968E221D1C7E200A4BF5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -398,6 +398,7 @@
 		5D79699D21D1CABB00A4BF5E /* chapter06v2.scm */ = {isa = PBXFileReference; lastKnownFileType = text; path = chapter06v2.scm; sourceTree = "<group>"; };
 		5D79699E21D1CABB00A4BF5E /* chapter17.scm */ = {isa = PBXFileReference; lastKnownFileType = text; path = chapter17.scm; sourceTree = "<group>"; };
 		5D79699F21D1CABB00A4BF5E /* chapter25.scm */ = {isa = PBXFileReference; lastKnownFileType = text; path = chapter25.scm; sourceTree = "<group>"; };
+		5D7969A021D3184600A4BF5E /* 学习列表.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "学习列表.md"; sourceTree = "<group>"; };
 		E698586421AE7ACC00AA455B /* AlgorithmPlay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmPlay; sourceTree = BUILT_PRODUCTS_DIR; };
 		E698586721AE7ACC00AA455B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		E698586E21AE7BF200AA455B /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
@@ -535,7 +536,7 @@
 			isa = PBXGroup;
 			children = (
 				5D79681021D1C6E600A4BF5E /* balanced parenthesis using stack in C */,
-				5D79681121D1C6E600A4BF5E /* main.c */,
+				5D79681121D1C6E600A4BF5E /* main_stack.c */,
 				5D79681221D1C6E600A4BF5E /* README.md */,
 				5D79681321D1C6E600A4BF5E /* stack.c */,
 				5D79681421D1C6E600A4BF5E /* stack.h */,
@@ -959,7 +960,7 @@
 				5D7968DB21D1C7E200A4BF5E /* bisearch */,
 				5D7968DC21D1C7E200A4BF5E /* bisearchtree.c */,
 				5D7968DD21D1C7E200A4BF5E /* bisearchtree.h */,
-				5D7968DE21D1C7E200A4BF5E /* main.c */,
+				5D7968DE21D1C7E200A4BF5E /* main_biSearchTree.c */,
 				5D7968DF21D1C7E200A4BF5E /* README.md */,
 			);
 			path = BiSearchTree;
@@ -1366,6 +1367,7 @@
 		E698586621AE7ACC00AA455B /* AlgorithmPlay */ = {
 			isa = PBXGroup;
 			children = (
+				5D7969A021D3184600A4BF5E /* 学习列表.md */,
 				5D79690F21D1CABB00A4BF5E /* The-Art-Of-Programming */,
 				5D79686421D1C7E200A4BF5E /* Learn-Algorithms */,
 				5D7967E521D1C6E500A4BF5E /* C */,
