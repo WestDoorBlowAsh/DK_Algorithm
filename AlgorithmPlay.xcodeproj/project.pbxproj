@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16F085B523B3504600853D55 /* das.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16F085B323B3504600853D55 /* das.cpp */; };
 		E698586821AE7ACC00AA455B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E698586721AE7ACC00AA455B /* main.c */; };
 		E698587021AE7BF200AA455B /* Helper.c in Sources */ = {isa = PBXBuildFile; fileRef = E698586F21AE7BF200AA455B /* Helper.c */; };
 		E698587321AE7CE900AA455B /* Sort.c in Sources */ = {isa = PBXBuildFile; fileRef = E698587221AE7CE900AA455B /* Sort.c */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		16F085B323B3504600853D55 /* das.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = das.cpp; sourceTree = "<group>"; };
+		16F085B423B3504600853D55 /* das.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = das.hpp; sourceTree = "<group>"; };
 		5D7967E621D1C6E500A4BF5E /* CodingGuidelines.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CodingGuidelines.md; sourceTree = "<group>"; };
 		5D7967E821D1C6E500A4BF5E /* Gauss_Elimination.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Gauss_Elimination.c; sourceTree = "<group>"; };
 		5D7967E921D1C6E500A4BF5E /* lagrange_theorem.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lagrange_theorem.C; sourceTree = "<group>"; };
@@ -418,6 +421,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16F085AB23B34F4000853D55 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				5D7969A021D3184600A4BF5E /* 学习列表.md */,
+				E698587121AE7CE900AA455B /* Sort.h */,
+				E698587221AE7CE900AA455B /* Sort.c */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		16F085AC23B34F8F00853D55 /* das */ = {
+			isa = PBXGroup;
+			children = (
+				16F085B323B3504600853D55 /* das.cpp */,
+				16F085B423B3504600853D55 /* das.hpp */,
+			);
+			path = das;
+			sourceTree = "<group>";
+		};
 		5D7967E521D1C6E500A4BF5E /* C */ = {
 			isa = PBXGroup;
 			children = (
@@ -1367,15 +1389,14 @@
 		E698586621AE7ACC00AA455B /* AlgorithmPlay */ = {
 			isa = PBXGroup;
 			children = (
-				5D7969A021D3184600A4BF5E /* 学习列表.md */,
+				16F085AC23B34F8F00853D55 /* das */,
+				16F085AB23B34F4000853D55 /* Sort */,
 				5D79690F21D1CABB00A4BF5E /* The-Art-Of-Programming */,
 				5D79686421D1C7E200A4BF5E /* Learn-Algorithms */,
 				5D7967E521D1C6E500A4BF5E /* C */,
 				E698586721AE7ACC00AA455B /* main.c */,
 				E698586E21AE7BF200AA455B /* Helper.h */,
 				E698586F21AE7BF200AA455B /* Helper.c */,
-				E698587121AE7CE900AA455B /* Sort.h */,
-				E698587221AE7CE900AA455B /* Sort.c */,
 			);
 			path = AlgorithmPlay;
 			sourceTree = "<group>";
@@ -1436,6 +1457,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F085B523B3504600853D55 /* das.cpp in Sources */,
 				E698586821AE7ACC00AA455B /* main.c in Sources */,
 				E698587321AE7CE900AA455B /* Sort.c in Sources */,
 				E698587021AE7BF200AA455B /* Helper.c in Sources */,

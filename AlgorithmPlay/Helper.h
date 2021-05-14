@@ -31,6 +31,7 @@ void display(int *a, int len);
 void swap(int *a, int *b);
 void swap_1(int *a, int *b);
 void swap_2(T *a, T *b);
+void swap_3(int a, int b);
 
 
 #endif /* Helper_h */

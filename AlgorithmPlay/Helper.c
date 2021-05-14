@@ -33,3 +33,9 @@ void swap_2(T *a, T *b) {
     *b = *b - *a;
     *a = *b + *a;
 }
+
+void swap_3(int a, int b) {
+    a = a ^ b;
+    b = a ^ b;
+    a = a ^ b;
+}
